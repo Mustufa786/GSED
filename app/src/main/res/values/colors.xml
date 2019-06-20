@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!--custom-->
+    <color name="white">#F5F5F5</color>
+    <color name="red">#ffff0000</color>
+    <color name="ticker_red">#80ff0000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="selectedBlue">#2b3581</color>
+    <color name="gray">#757575</color>
+    <color name="green">#4caf50</color>
+    <color name="black">#ff000000</color>
+    <color name="grayOverlay">#7f7f7f7f</color>
+    <color name="dullWhile">#d6d6d6</color>
+    <color name="dullWhileOverlay">#99d6d6d6</color>
+    <color name="darkRed">#D50000</color>
+    <color name="lightOrange">#FFE0B2</color>
+    <color name="colorPrimaryAlpha">#c9C89933</color>
+    <color name="colorPrimaryBeta">#f5C89933</color>
+</resources>
