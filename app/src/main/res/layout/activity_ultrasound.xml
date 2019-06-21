@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+    <data>
+
+        <variable
+            name="callback"
+            type="com.aku.dmu.gsed.ui.UltrasoundActivity" />
+    </data>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.UltrasoundActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!--U01-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U01"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+
+                    <EditText
+                        android:id="@+id/u01"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/U01"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--U02-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U02"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+
+                    <EditText
+                        android:id="@+id/u02"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/U02"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!--U03-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U03"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+
+                    <io.blackbox_vision.datetimepickeredittext.view.DatePickerEditText
+                        android:id="@+id/u03"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/U03"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--U04-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U04"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+
+                    <RadioGroup
+                        android:id="@+id/U04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/U04a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/U04a" />
+
+                        <RadioButton
+                            android:id="@+id/U04b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/U04b" />
+
+                        <RadioButton
+                            android:id="@+id/U04c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/U04c" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--U05-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U05"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+
+                    <EditText
+                        android:id="@+id/U05"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/U05"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!--U06-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U06"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+
+                    <EditText
+                        android:id="@+id/U06"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/U06"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <!--U07-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U07"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/U07text"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/length"
+                        android:textSize="17sp" />
+
+
+                    <RadioGroup
+                        android:id="@+id/U07"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/U07a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/nk" />
+
+                        <RadioButton
+                            android:id="@+id/U07b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/na" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!--U08-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U08"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/U08text"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/length"
+                        android:textSize="17sp" />
+
+
+                    <RadioGroup
+                        android:id="@+id/U08"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/U08a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/nk" />
+
+                        <RadioButton
+                            android:id="@+id/U08b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/na" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--U09-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U09"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/U09text"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/length"
+                        android:textSize="17sp" />
+
+
+                    <RadioGroup
+                        android:id="@+id/U09"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/U09a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/nk" />
+
+                        <RadioButton
+                            android:id="@+id/U09b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/na" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--U10-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U10"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/U10text"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/length"
+                        android:textSize="17sp" />
+
+
+                    <RadioGroup
+                        android:id="@+id/U10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/U10a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/nk" />
+
+                        <RadioButton
+                            android:id="@+id/U10b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/na" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--U11-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U11"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/U11text"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/length"
+                        android:textSize="17sp" />
+
+
+                    <RadioGroup
+                        android:id="@+id/U11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/U11a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/nk" />
+
+                        <RadioButton
+                            android:id="@+id/U11b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/na" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--U12-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U12"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/U12text"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/length"
+                        android:textSize="17sp" />
+
+
+                    <RadioGroup
+                        android:id="@+id/U12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/U12a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/nk" />
+
+                        <RadioButton
+                            android:id="@+id/U12b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/na" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--U13-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U13"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/U13text"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/length"
+                        android:textSize="17sp" />
+
+
+                    <RadioGroup
+                        android:id="@+id/U13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/U13a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/nk" />
+
+                        <RadioButton
+                            android:id="@+id/U13b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/na" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--U14-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U14"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/U14text"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/length"
+                        android:textSize="17sp" />
+
+
+                    <RadioGroup
+                        android:id="@+id/U14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/U14a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/nk" />
+
+                        <RadioButton
+                            android:id="@+id/U14b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/na" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--U15-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U15"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/U15text"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/length"
+                        android:textSize="17sp" />
+
+
+                    <RadioGroup
+                        android:id="@+id/U15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/U15a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/nk" />
+
+                        <RadioButton
+                            android:id="@+id/U15b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="@string/na" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--U16-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U16"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/U16text"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/age"
+                        android:textSize="17sp" />
+
+                    <CheckBox
+                        android:id="@+id/u16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nk" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--U17-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U17"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/U17text"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/age"
+                        android:textSize="17sp" />
+
+                    <CheckBox
+                        android:id="@+id/u17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nk" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!--U18-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/U18"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/U18text"
+                        style="@style/textInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/other"
+                        android:textSize="17sp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--  = = = = =  END OF FORM FIELDS  = = = = = -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_End"
+                    style="@style/button"
+                    android:layout_marginRight="10dp"
+                    android:onClick="@{() -> callback.BtnEnd()}"
+                    android:text="@string/end_interview" />
+
+                <!--'onClick' for btn_End will NOT change and always call 'endInterview'-->
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</layout>

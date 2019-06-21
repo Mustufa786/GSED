@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">GSED App</string>
+
+    <string name="nk">Not Known</string>
+    <string name="na">Not Applicable</string>
+    <string name="length">Length</string>
+    <string name="age">Age</string>
+    <string name="other">Other</string>
+
+    <string name="end_interview">End Interview</string>
+    <string name="nextSection">Next Section</string>
+
+    <string name="U01"> Worker code </string>
+    <string name="U02"> DSS ID </string>
+    <string name="U03"> Date filling the form </string>
+    <string name="U03dd"> dd </string>
+    <string name="U03mm"> mm </string>
+    <string name="U03yyyy"> yyyy </string>
+    <string name="U04"> Study site </string>
+    <string name="U04a"> Bangladesh </string>
+    <string name="U04b"> Pakistan-Karachi  </string>
+    <string name="U04c"> Tanzania-Pemba </string>
+    <string name="U05"> Child’s GSED ID </string>
+    <string name="U06"> Mother’s name </string>
+    <string name="U07"> Crown to rump length 1 (cm) (If ≥8 and &gt; 14 wks) </string>
+    <string name="U08"> Crown to rump length 2 (cm) (If ≥8 and &gt; 14 wks) </string>
+    <string name="U09"> Crown to rump length 3 (cm) (If ≥8 and &gt; 14 wks) </string>
+    <string name="U10"> Biparietal diameter 1 (cm) (If ≥14 wks) </string>
+    <string name="U11"> Biparietal diameter 2 (cm) (If ≥14 wks) </string>
+    <string name="U12"> Biparietal diameter 3 (cm) (If ≥14 wks) </string>
+    <string name="U13"> FEMUR length1 (cm) (If ≥14 wks) </string>
+    <string name="U14"> FEMUR length 2 (cm) (If ≥14 wks) </string>
+    <string name="U15"> FEMUR length 3 (cm) (If ≥14 wks) </string>
+    <string name="U16"> Gestational age at ultrasound in COMPLETED WEEKS </string>
+    <string name="U17"> Gestational age at ultrasound in EXTRA DAYS over completed weeks </string>
+    <string name="U18"> Any other important finding relevant for the health of the mother or the fetus (e.g. no heartbeat or other reasons for referral). Specify. </string>
+
+
 </resources>
