@@ -14,7 +14,7 @@ import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.text.format.DateFormat;
 
-import com.aku.dmu.gsed.Utils.Constant.Constants;
+import com.aku.dmu.gsed.utils.Constant.Constants;
 
 public class GSEDApp extends Application {
 

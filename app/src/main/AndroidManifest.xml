@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme">
 
         <!--Location Service-->
-        <service android:name=".Services.LocationService" />
+        <service android:name=".customServices.LocationService" />
 
         <activity
             android:name=".ui.UltrasoundActivity"
