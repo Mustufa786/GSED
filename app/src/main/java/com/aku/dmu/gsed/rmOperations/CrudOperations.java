@@ -1,5 +1,6 @@
 package com.aku.dmu.gsed.rmOperations;
 
+import android.content.Context;
 import android.os.AsyncTask;
 
 import com.aku.dmu.gsed.data.AppDatabase;
@@ -11,16 +12,24 @@ import java.lang.reflect.Method;
  * Created by openm on 19-Jul-18.
  */
 
-public class syncOperations extends AsyncTask<String, Void, Long> {
+public class CrudOperations extends AsyncTask<String, Void, Long> {
 
-    AppDatabase db;
+    private AppDatabase db;
+    private Object objForms;
+    private Context mContext;
+    private String className, DAOClassRef, DAOClassFncRef;
 
-    public syncOperations(AppDatabase db) {
-        this.db = db;
+    public CrudOperations(Context mContext, String className, String DAOClassRef, String DAOClassFncRef, Object objForms) {
+        this.mContext = mContext;
+        this.className = className;
+        this.DAOClassRef = DAOClassRef;
+        this.DAOClassFncRef = DAOClassFncRef;
+        this.objForms = objForms;
     }
 
     @Override
     protected Long doInBackground(String... fnNames) {
+        db = AppDatabase.getDatabase(mContext);
 
         Long longID = new Long(0);
 
@@ -28,15 +37,15 @@ public class syncOperations extends AsyncTask<String, Void, Long> {
 
             Method[] fn = db.getClass().getDeclaredMethods();
             for (Method method : fn) {
-                if (method.getName().equals(fnNames[1])) {
+                if (method.getName().equals(DAOClassRef)) {
 
-                    Class<?> fnClass = Class.forName(fnNames[0]);
+                    Class<?> fnClass = Class.forName(className);
 
                     for (Method method2 : fnClass.getDeclaredMethods()) {
-                        if (method2.getName().equals(fnNames[2])) {
+                        if (method2.getName().equals(DAOClassFncRef)) {
 
-                            longID = Long.valueOf(String.valueOf(fnClass.getMethod(method2.getName())
-                                    .invoke(db.getClass().getMethod(fnNames[1]).invoke(db))));
+                            longID = Long.valueOf(String.valueOf(fnClass.getMethod(method2.getName(), objForms.getClass())
+                                    .invoke(db.getClass().getMethod(DAOClassRef).invoke(db), objForms)));
 
                             break;
                         }
@@ -55,7 +64,6 @@ public class syncOperations extends AsyncTask<String, Void, Long> {
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
         }
-
 
         return longID;
     }

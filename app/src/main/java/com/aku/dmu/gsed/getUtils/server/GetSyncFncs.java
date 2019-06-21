@@ -8,8 +8,8 @@ import com.aku.dmu.gsed.data.Entities.Clusters;
 import com.aku.dmu.gsed.data.Entities.Districts;
 import com.aku.dmu.gsed.data.Entities.UCs;
 import com.aku.dmu.gsed.data.Entities.Users;
-import com.aku.dmu.gsed.rmOperations.crudOperations;
-import com.aku.dmu.gsed.rmOperations.syncOperations;
+import com.aku.dmu.gsed.rmOperations.CrudOperations;
+import com.aku.dmu.gsed.rmOperations.SyncOperations;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -20,7 +20,7 @@ public abstract class GetSyncFncs {
 
         AppDatabase db = AppDatabase.getDatabase(mContext);
 
-        new syncOperations(db).execute(FormsDAO.class.getName(), "formsDao", "deleteUsers");
+        new SyncOperations(db).execute(FormsDAO.class.getName(), "formsDao", "deleteUsers");
 
         try {
             JSONArray jsonArray = userlist;
@@ -30,7 +30,7 @@ public abstract class GetSyncFncs {
                 Users users = new Users();
                 users.Sync(jsonObjectUser);
 
-                new crudOperations(mContext, FormsDAO.class.getName(), "formsDao", "insertUsers", users).execute().get();
+                new CrudOperations(mContext, FormsDAO.class.getName(), "formsDao", "insertUsers", users).execute().get();
             }
             db.close();
 
@@ -42,7 +42,7 @@ public abstract class GetSyncFncs {
 
         AppDatabase db = AppDatabase.getDatabase(mContext);
 
-        new syncOperations(db).execute(FormsDAO.class.getName(), "formsDao", "deleteClusters");
+        new SyncOperations(db).execute(FormsDAO.class.getName(), "formsDao", "deleteClusters");
 
         try {
             JSONArray jsonArray = clusterList;
@@ -52,7 +52,7 @@ public abstract class GetSyncFncs {
                 Clusters clusters = new Clusters();
                 clusters.Sync(jsonObjectUser);
 
-                new crudOperations(mContext, FormsDAO.class.getName(), "formsDao", "insertClusters", clusters).execute().get();
+                new CrudOperations(mContext, FormsDAO.class.getName(), "formsDao", "insertClusters", clusters).execute().get();
             }
             db.close();
 
@@ -64,7 +64,7 @@ public abstract class GetSyncFncs {
 
         AppDatabase db = AppDatabase.getDatabase(mContext);
 
-        new syncOperations(db).execute(FormsDAO.class.getName(), "formsDao", "deleteDistricts");
+        new SyncOperations(db).execute(FormsDAO.class.getName(), "formsDao", "deleteDistricts");
 
         try {
             JSONArray jsonArray = distList;
@@ -74,7 +74,7 @@ public abstract class GetSyncFncs {
                 Districts dist = new Districts();
                 dist.Sync(jsonObjectUser);
 
-                new crudOperations(mContext, FormsDAO.class.getName(), "formsDao", "insertDistricts", dist).execute().get();
+                new CrudOperations(mContext, FormsDAO.class.getName(), "formsDao", "insertDistricts", dist).execute().get();
             }
             db.close();
 
@@ -86,7 +86,7 @@ public abstract class GetSyncFncs {
 
         AppDatabase db = AppDatabase.getDatabase(mContext);
 
-        new syncOperations(db).execute(FormsDAO.class.getName(), "formsDao", "deleteUCs");
+        new SyncOperations(db).execute(FormsDAO.class.getName(), "formsDao", "deleteUCs");
 
         try {
             JSONArray jsonArray = ucsList;
@@ -96,7 +96,7 @@ public abstract class GetSyncFncs {
                 UCs ucs = new UCs();
                 ucs.Sync(jsonObjectUser);
 
-                new crudOperations(mContext, FormsDAO.class.getName(), "formsDao", "insertUcs", ucs).execute().get();
+                new CrudOperations(mContext, FormsDAO.class.getName(), "formsDao", "insertUcs", ucs).execute().get();
             }
             db.close();
 
