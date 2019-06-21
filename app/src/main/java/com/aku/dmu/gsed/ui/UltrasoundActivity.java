@@ -5,11 +5,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import com.aku.dmu.gsed.JSONGenerator.GeneratorClass;
 import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.databinding.ActivityUltrasoundBinding;
-
-import org.json.JSONObject;
 
 public class UltrasoundActivity extends AppCompatActivity {
 

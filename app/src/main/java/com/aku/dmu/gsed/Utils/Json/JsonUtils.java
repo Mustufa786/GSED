@@ -1,4 +1,4 @@
-package com.aku.dmu.gsed.utils;
+package com.aku.dmu.gsed.Utils.Json;
 
 import org.json.JSONException;
 import org.json.JSONObject;

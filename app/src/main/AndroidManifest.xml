@@ -6,14 +6,23 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
+        android:name=".GSEDApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.UltrasoundActivity"
-            android:theme="@style/AppTheme1"></activity>
+
+        <!--Location Service-->
+        <service android:name=".Services.LocationService" />
+
+        <activity
+            android:name=".ui.UltrasoundActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustResize" />
+
     </application>
 
 </manifest>

@@ -10,7 +10,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 
-import com.aku.dmu.gsed.validation.ValidatorClass;
+import com.aku.dmu.gsed.Validation.ValidatorClass;
 
 import org.json.JSONException;
 import org.json.JSONObject;

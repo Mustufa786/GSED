@@ -1,4 +1,4 @@
-package com.aku.dmu.gsed.validation;
+package com.aku.dmu.gsed.Validation;
 
 import android.support.v7.widget.CardView;
 import android.view.View;
