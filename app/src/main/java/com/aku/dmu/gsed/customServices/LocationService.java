@@ -16,6 +16,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.text.format.DateFormat;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.aku.dmu.gsed.utils.Constant.Constants;
 
@@ -25,7 +26,7 @@ public class LocationService extends Service {
 
     @Override
     public void onCreate() {
-        Log.v("ServiceUpda", "InsideOnCreate");
+        Log.v("ServiceUpdate", "InsideOnCreate");
 
         // Requires Permission for GPS -- android.permission.ACCESS_FINE_LOCATION
         // Requires Additional permission for 5.0 -- android.hardware.location.gps
@@ -79,8 +80,7 @@ public class LocationService extends Service {
                     "Current Location \n Longitude: %1$s \n Latitude: %2$s",
                     location.getLongitude(), location.getLatitude()
             );
-            //Toast.makeText(getApplicationContext(), message,
-            //Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
         }
 
     }
@@ -107,12 +107,12 @@ public class LocationService extends Service {
                 editor.putString("Time", String.valueOf(location.getTime()));
                 editor.putString("Elevation", String.valueOf(location.getAltitude()));
                 String date = DateFormat.format("dd-MM-yyyy HH:mm", Long.parseLong(String.valueOf(location.getTime()))).toString();
-//                Toast.makeText(getApplicationContext(),
-//                        "GPS Commit! LAT: " + String.valueOf(location.getLongitude()) +
-//                                " LNG: " + String.valueOf(location.getLatitude()) +
-//                                " Accuracy: " + String.valueOf(location.getAccuracy()) +
-//                                " Time: " + date,
-//                        Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),
+                        "GPS Commit! LAT: " + location.getLongitude() +
+                                " LNG: " + location.getLatitude() +
+                                " Accuracy: " + location.getAccuracy() +
+                                " Time: " + date,
+                        Toast.LENGTH_SHORT).show();
 
                 editor.apply();
             }
