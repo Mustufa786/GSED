@@ -103,7 +103,7 @@
     </style>
 
     <style name="ActionBar">
-        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
     </style>
 
     <style name="linerlayout_view">
@@ -281,6 +281,7 @@
 
     <!--Button View Start-->
     <style name="button">
+        <item name="android:textAlignment">center</item>
         <item name="android:background">@drawable/curve_button</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:layout_width">0dp</item>

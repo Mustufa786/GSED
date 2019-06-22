@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">GSED App</string>
+    <string name="app_name">GSED</string>
 
+    <!--sample-->
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
     <string name="nk">Not Known</string>
     <string name="na">Not Applicable</string>
     <string name="length">Length</string>
@@ -35,5 +40,8 @@
     <string name="U17"> Gestational age at ultrasound in EXTRA DAYS over completed weeks </string>
     <string name="U18"> Any other important finding relevant for the health of the mother or the fetus (e.g. no heartbeat or other reasons for referral). Specify. </string>
 
+    <!--CRF2-->
+    <string name="crf2_sectiona">COVER SHEET</string>
+    <string name="crf2_sectionb">CHILD’S CHRONIC HEALTH/ NEURODEVELOPMENTAL DISABILITIES</string>
 
 </resources>

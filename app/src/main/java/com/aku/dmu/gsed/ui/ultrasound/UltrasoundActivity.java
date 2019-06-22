@@ -1,4 +1,4 @@
-package com.aku.dmu.gsed.ui;
+package com.aku.dmu.gsed.ui.ultrasound;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -23,7 +23,7 @@ public class UltrasoundActivity extends AppCompatActivity {
 
     }
 
-    private void SaveDraft() {
+    private void saveDraft() {
 
     }
 
