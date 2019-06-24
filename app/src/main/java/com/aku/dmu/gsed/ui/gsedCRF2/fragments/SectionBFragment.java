@@ -8,6 +8,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.databinding.FramentSectionBBinding;
@@ -45,5 +46,32 @@ public class SectionBFragment extends Fragment {
 
     public boolean formValidation() {
         return ValidatorClass.EmptyCheckingContainer(getContext(), bi.fldGrpSectionB01);
+    }
+
+
+    public void BtnEnd() {
+
+    }
+
+    public void BtnContinue() {
+        if (!formValidation())
+            return;
+
+        SaveDraft();
+        if (UpdateDB()) {
+
+        } else {
+            Toast.makeText(getContext(), "Error in updating db!!", Toast.LENGTH_SHORT).show();
+        }
+
+
+    }
+
+    private boolean UpdateDB() {
+
+        return true;
+    }
+
+    private void SaveDraft() {
     }
 }

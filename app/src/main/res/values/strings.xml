@@ -13,6 +13,7 @@
     <string name="other">Other</string>
     <string name="specify">Please specify other</string>
     <string name="dkn">Dont Know</string>
+    <string name="measure">Measure</string>
     <string name="name"> Name </string>
 
     <string name="end_interview">End Interview</string>
@@ -63,10 +64,13 @@
     <string name="cs0420"> Tanzania-Pemba </string>
 
     <string name="cs05"> Has the woman mother given her consent to be enrolled in the study? </string>
+    <string name="cs05a"> yes </string>
+    <string name="ph09"> no </string>
 
     <string name="cs06"> Enrolment cohort </string>
-    <string name="cs06a"> ACT </string>
-    <string name="cs06b"> Non ACT </string>
+    <string name="cs0601"> ACT </string>
+    <string name="cs0602"> Non ACT </string>
+
 
     <string name="cs07"> If ACT cohort, has mother given consent to access ACT study data? </string>
     <string name="cs07a"> yes </string>
@@ -99,15 +103,15 @@
     <string name="cs15"> Which language is (name of the child) learning to speak at home? </string>
 
     <string name="cs16"> Is this the same language as the GSED translation? </string>
-    <string name="cs16a"> Yes </string>
-    <string name="cs16b"> No </string>
-    <string name="cs16c"> if no, NOT eligible </string>
+    <string name="cs161"> Yes </string>
+    <string name="cs162"> No </string>
+    <string name="cs163"> if no, NOT eligible </string>
 
 
     <string name="cs17"> Are you (name of the child)’s primary caregiver? </string>
-    <string name="cs17a"> Yes </string>
-    <string name="cs17b"> No </string>
-    <string name="cs17c"> if no, NOT eligible </string>
+    <string name="cs171"> Yes </string>
+    <string name="cs172"> No </string>
+    <string name="cs173"> if no, NOT eligible </string>
 
     <string name="cs18"> What is your relationship to (name of the child)? </string>
     <string name="cs1811"> Mother </string>
@@ -310,7 +314,7 @@
 
     <string name="hs01"> How many years of formal schooling did you complete? </string>
     <string name="hs0199"> NA </string>
-    <string name="hs0199a"> if &gt; 5 years EXCLUDE from healthy sample </string>
+    <string name="hs0199a"> if &lt; 5 years EXCLUDE from healthy sample </string>
 
     <string name="hs02"> Birthweight of baby (gram) </string>
     <string name="hs028888"> DK </string>
@@ -384,7 +388,7 @@
     <string name="ed031"> yes </string>
     <string name="ed032"> no </string>
 
-    <string name="e4"> If yes, has the caregiver given consent to video recording? </string>
+    <string name="ed04"> If yes, has the caregiver given consent to video recording? </string>
     <string name="ed041"> yes </string>
     <string name="ed042"> no </string>
 
@@ -775,6 +779,13 @@
     <string name="crf2_sectionb">CHILD’S CHRONIC HEALTH/ NEURODEVELOPMENTAL DISABILITIES</string>
     <string name="dateHint">DD/MM/YYYY</string>
     <string name="crf2_sectionc">CHILD’S ACCUTE HEALTH</string>
+    <string name="crf2_sectiond">CHILD’S ANTHROPOMETRY</string>
+    <string name="crf2_sectione">HEALTHY SAMPLE EXCLUSION CRITERIA</string>
+    <string name="crf2_sectionf">GENERAL SAMPLE EXCLUSION CRITERIA</string>
+    <string name="crf2_sectiong">ELIGIBILITY DECISION</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="cs14h"><![CDATA[If child’s age > 41 months DON\'T proceed.]]></string>
     <string name="cs20h"><![CDATA[>= 18 Years...]]></string>
 
