@@ -13,6 +13,7 @@
     <string name="other">Other</string>
     <string name="dkn">Dont Know</string>
     <string name="measure">Measure</string>
+    <string name="number">Number</string>
 
     <string name="end_interview">End Interview</string>
     <string name="nextSection">Next Section</string>
