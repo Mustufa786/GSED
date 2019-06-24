@@ -30,7 +30,7 @@ public class SectionCFragment extends Fragment {
         // Inflate the layout for this fragment
         bi = DataBindingUtil.inflate(inflater, R.layout.frament_section_c, container, false);
 
-        getActivity().setTitle(getString(R.string.crf2_sectionb));
+        getActivity().setTitle(getString(R.string.crf2_sectionc));
 
         return bi.getRoot();
     }
