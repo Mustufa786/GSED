@@ -31,7 +31,6 @@ public class GSEDCRF2Activity extends AppCompatActivity implements Callbacks {
             @Override
             public void onClick(View v) {
 
-
             }
         });
 

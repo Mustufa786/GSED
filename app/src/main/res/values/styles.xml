@@ -10,6 +10,14 @@
         <item name="toolbarStyle">@style/ActionBar</item>
     </style>
 
+
+    <style name="radiogroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
     <style name="radiobutton">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -24,18 +32,16 @@
     </style>
 
     <style name="checkbox">
-        <item name="android:layout_gravity">right</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:button">@null</item>
         <item name="android:textSize">24sp</item>
         <item name="android:typeface">serif</item>
         <item name="android:clickable">true</item>
+        <item name="android:layout_marginBottom">1dp</item>
         <item name="android:foreground">?android:attr/selectableItemBackground</item>
-        <item name="android:drawableStart">?android:attr/listChoiceIndicatorMultiple</item>
-        <item name="android:drawablePadding">12dp</item>
+        <item name="android:padding">10dp</item>
         <item name="android:background">@color/white</item>
-        <item name="android:padding">12dp</item>
+        <item name="android:elevation">1dp</item>
     </style>
 
     <style name="CustomShowcaseTheme" parent="ShowcaseView.Light">
@@ -139,9 +145,9 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:background">@color/colorPrimary</item>
-        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10sp</item>
+        <item name="android:textSize">23sp</item>
     </style>
 
 
@@ -158,6 +164,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">1dp</item>
         <item name="android:layout_weight">1</item>
+        <item name="android:textSize">22sp</item>
 
     </style>
 

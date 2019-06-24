@@ -11,10 +11,12 @@
     <string name="length">Length</string>
     <string name="age">Age</string>
     <string name="other">Other</string>
+    <string name="specify">Please specify other</string>
     <string name="dkn">Dont Know</string>
     <string name="measure">Measure</string>
     <string name="number">Number</string>
 
+    <string name="name"> Name </string>
     <string name="end_interview">End Interview</string>
     <string name="nextSection">Next Section</string>
     <string name="save">Save</string>
@@ -49,6 +51,9 @@
     <string name="eligibility">ELIGIBILITY FORM</string>
     <string name="cs01"> Worker code </string>
     <string name="cs02"> DSS ID </string>
+
+    <string name="cs0101aa"> [Site specific] </string>
+
     <string name="cs03"> Date filling the form </string>
     <string name="cs03dd"> DD </string>
     <string name="cs03mm"> MM </string>
@@ -114,25 +119,23 @@
     <string name="cs1812"> Father </string>
     <string name="cs1813"> Grandmother </string>
     <string name="cs1814"> Grandfather </string>
-    <string name="cs1815"> other </string>
+    <string name="cs1815"> Other </string>
+
     <string name="cs19"> If "other”, please specify </string>
 
-
     <string name="cs20"> What is your age? </string>
-    <string name="cs2088"> 88=don’t know </string>
+    <string name="cs2088"> Don’\t Know = 88 </string>
     <string name="cs2088a"> If &gt; 18 years, NOT eligible </string>
 
-
     <string name="cs21"> What is your current occupation? </string>
-    <string name="cs2111"> government job </string>
-    <string name="cs2112"> private job </string>
-    <string name="cs2113"> self employed </string>
-    <string name="cs2114"> farming only </string>
-    <string name="cs2115"> daily wage earner </string>
-    <string name="cs2116"> other work </string>
-    <string name="cs2117"> does not work </string>
-    <string name="cs2199"> not applicable </string>
-
+    <string name="cs2111"> Government Job </string>
+    <string name="cs2112"> Private Job </string>
+    <string name="cs2113"> Self Employed </string>
+    <string name="cs2114"> Farming Only </string>
+    <string name="cs2115"> Daily Wage Earner </string>
+    <string name="cs2116"> Other Work </string>
+    <string name="cs2117"> Does Not Work </string>
+    <string name="cs2199"> Not Applicable </string>
 
     <string name="cs22"> If occupation is "other work", specify </string>
     <string name="chh"> CHILD’S CHRONIC HEALTH/ NEURODEVELOPMENTAL DISABILITIES </string>
