@@ -15,7 +15,6 @@
             android:layout_marginBottom="60dp"
             android:orientation="vertical">
 
-
             <android.support.v7.widget.CardView
                 style="@style/cardView"
                 android:layout_width="match_parent"
@@ -60,7 +59,6 @@
 
 
                     </LinearLayout>
-
 
                     <RadioGroup
                         android:id="@+id/ques01"
@@ -1194,7 +1192,6 @@
 
 
         </LinearLayout>
-
 
     </ScrollView>
 </layout>

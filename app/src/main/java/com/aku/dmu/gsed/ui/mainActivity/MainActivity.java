@@ -1,4 +1,4 @@
-package com.aku.dmu.gsed.ui;
+package com.aku.dmu.gsed.ui.mainActivity;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -15,13 +15,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.InputType;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.aku.dmu.gsed.GSEDApp;
 import com.aku.dmu.gsed.R;
-import com.aku.dmu.gsed.data.AppDatabase;
 import com.aku.dmu.gsed.data.DAO.GetFncDAO;
 import com.aku.dmu.gsed.data.Entities.Forms;
 import com.aku.dmu.gsed.databinding.ActivityMainBinding;
@@ -52,7 +52,8 @@ public class MainActivity extends AppCompatActivity {
     private Boolean exit = false;
     private String rSumText = "";
     private boolean updata = false;
-    private AppDatabase db;
+    SharedPreferences sharedPrefDownload;
+    SharedPreferences.Editor editorDownload;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,8 +67,55 @@ public class MainActivity extends AppCompatActivity {
         }
         mainBinding.lblheader.setText("Welcome!");
 
-        //Setting Database
-        db = AppDatabase.getDatabase(this);
+        /*TagID Start*/
+        sharedPref = getSharedPreferences("tagName", MODE_PRIVATE);
+        editor = sharedPref.edit();
+        sharedPrefDownload = getSharedPreferences("appDownload", MODE_PRIVATE);
+        editorDownload = sharedPrefDownload.edit();
+
+        builder = new AlertDialog.Builder(MainActivity.this);
+        final AlertDialog dialog = builder.create();
+
+        ImageView img = new ImageView(getApplicationContext());
+        img.setImageResource(R.drawable.tagimg);
+        img.setPadding(0, 15, 0, 15);
+        builder.setCustomTitle(img);
+
+        final EditText input = new EditText(MainActivity.this);
+        input.setInputType(InputType.TYPE_CLASS_TEXT);
+        input.requestFocus();
+        input.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View view, boolean b) {
+                if (b) {
+                    dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
+                }
+            }
+        });
+
+        builder.setView(input);
+
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                m_Text = input.getText().toString();
+                if (!m_Text.equals("")) {
+                    editor.putString("tagName", m_Text);
+                    editor.commit();
+                }
+            }
+        });
+        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+            }
+        });
+
+        if (sharedPref.getString("tagName", null) == "" || sharedPref.getString("tagName", null) == null) {
+            builder.show();
+        }
+        /*TagID End*/
 
 //        Admin checking
         if (GSEDApp.admin) {
@@ -193,6 +241,7 @@ public class MainActivity extends AppCompatActivity {
 
             builder.show();
         }
+
     }
 
     private Class<?> selectedForm(String fType) {
