@@ -11,9 +11,17 @@
         <LinearLayout
             android:id="@+id/fldGrpSectionA01"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="60dp"
             android:orientation="vertical">
+
+
+            <TextView
+                style="@style/i_textview"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="@string/crf2_sectiona"
+                android:textSize="25sp" />
 
 
             <!-- EditText cs01 Starts -->
@@ -164,14 +172,14 @@
                         style="@style/radiogroup">
 
                         <RadioButton
-                            android:id="@+id/cs06a"
+                            android:id="@+id/cs061"
                             style="@style/radiobutton"
-                            android:text="@string/cs06a" />
+                            android:text="@string/cs0601" />
 
                         <RadioButton
                             android:id="@+id/cs06b"
                             style="@style/radiobutton"
-                            android:text="@string/cs06b" />
+                            android:text="@string/cs0602" />
 
                     </RadioGroup>
 
@@ -383,7 +391,7 @@
                     <EditText
                         android:id="@+id/cs14"
                         style="@style/textInput"
-                        android:hint="@string/cs14h" />
+                        android:hint="@string/cs14a" />
 
                 </LinearLayout>
 
@@ -427,19 +435,19 @@
                         style="@style/radiogroup">
 
                         <RadioButton
-                            android:id="@+id/cs16a"
+                            android:id="@+id/cs161"
                             style="@style/radiobutton"
-                            android:text="@string/cs16a" />
+                            android:text="@string/cs161" />
 
                         <RadioButton
-                            android:id="@+id/cs16b"
+                            android:id="@+id/cs162"
                             style="@style/radiobutton"
-                            android:text="@string/cs16b" />
+                            android:text="@string/cs162" />
 
                         <RadioButton
-                            android:id="@+id/cs16c"
+                            android:id="@+id/cs163"
                             style="@style/radiobutton"
-                            android:text="@string/cs16c" />
+                            android:text="@string/cs163" />
 
                     </RadioGroup>
 
@@ -464,19 +472,19 @@
                         style="@style/radiogroup">
 
                         <RadioButton
-                            android:id="@+id/cs17a"
+                            android:id="@+id/cs171"
                             style="@style/radiobutton"
-                            android:text="@string/cs17a" />
+                            android:text="@string/cs171" />
 
                         <RadioButton
-                            android:id="@+id/cs17b"
+                            android:id="@+id/cs172"
                             style="@style/radiobutton"
-                            android:text="@string/cs17b" />
+                            android:text="@string/cs172" />
 
                         <RadioButton
-                            android:id="@+id/cs17c"
+                            android:id="@+id/cs173"
                             style="@style/radiobutton"
-                            android:text="@string/cs17c" />
+                            android:text="@string/cs173" />
 
                     </RadioGroup>
 
@@ -569,8 +577,8 @@
 
                     <EditText
                         android:id="@+id/cs20"
-                        style="@style/EditText"
-                        android:hint="@string/cs20h"
+                        style="@style/EditText_number"
+                        android:hint="Age"
                         android:text='@{cs2088.checked || cs2088a.checked ? ""  : cs20.getText.toString }'
                         android:visibility='@{cs2088.checked || cs2088.checked ? View.GONE : View.VISIBLE }' />
 

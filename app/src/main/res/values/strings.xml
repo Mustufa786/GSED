@@ -69,7 +69,7 @@
     <string name="ph09"> no </string>
 
     <string name="cs06"> Enrolment cohort </string>
-    <string name="cs06a"> ACT </string>
+    <string name="cs0601"> ACT </string>
     <string name="cs0602"> Non ACT </string>
 
 
@@ -375,9 +375,7 @@
     <string name="gs062"> No </string>
     <string name="gs061a"> if yes NOT eligible </string>
 
-
     <string name="ed"> ELIGIBILITY DECISION </string>
-
 
     <string name="ed01"> Child is eligible for (tick one please) </string>
     <string name="ed011"> General population </string>
@@ -543,30 +541,30 @@
     <string name="mh"> MATERNAL HEALTH </string>
 
     <string name="m01"> Would you rate your health as being good overall? </string>
-    <string name="m011"> yes </string>
-    <string name="m012"> no </string>
-    <string name="m018"> don’t know </string>
+    <string name="m011"> Yes </string>
+    <string name="m012"> No </string>
+    <string name="m018"> Don’t Know </string>
 
     <string name="m02"> Do you have any diagnosed chronic conditions for which you visit a doctor or health facility on a regular basis? </string>
-    <string name="m021"> yes </string>
-    <string name="m022"> no </string>
-    <string name="m028"> don’t know </string>
+    <string name="m021"> Yes </string>
+    <string name="m022"> No </string>
+    <string name="m028"> Don’t Know </string>
 
     <string name="hh"> BACKGROUND DETAILS HOUSEHOLD </string>
 
     <string name="hh01"> Who is the head of your household? </string>
     <string name="hh0111"> Mother of baby </string>
-    <string name="h0112"> Father of baby </string>
-    <string name="h0113"> Grandmother of baby </string>
-    <string name="h0114"> Grandfather of baby </string>
-    <string name="hh0115"> other </string>
+    <string name="hh0112"> Father of baby </string>
+    <string name="hh0113"> Grandmother of baby </string>
+    <string name="hh0114"> Grandfather of baby </string>
+    <string name="hh0115"> Other </string>
 
     <string name="hh02"> If "other”, please specify </string>
 
     <string name="hh03"> How many years of schooling did the child’s father or head of the household complete? </string>
     <string name="hh0300"> 00 to 25 </string>
-    <string name="hh0399"> not applicable </string>
-    <string name="hh0388"> not known </string>
+    <string name="hh0399"> Not Applicable </string>
+    <string name="hh0388"> Not Known </string>
 
     <string name="hh04"> What is the current occupation of the father or the head of the household? </string>
     <string name="hh0411"> government service </string>
@@ -581,9 +579,10 @@
     <string name="hh05"> If occupation of child’s father or head of the household is "other", specify </string>
 
     <string name="hh06"> Is child’s father currently living with the family? </string>
-    <string name="hh061"> yes </string>
-    <string name="hh062"> no </string>
-    <string name="hh069"> not applicable </string>
+    <string name="hh061"> Yes </string>
+    <string name="hh062"> No </string>
+    <string name="hh069"> Not Applicable </string>
+
     <string name="hhes"> HOUSEHOLD SOCIO-ECONOMIC STATUS </string>
 
     <string name="hh07"> What is the main source of drinking water for members of your household? </string>
@@ -594,10 +593,10 @@
     <string name="hh0715"> closed well </string>
     <string name="hh0716"> Tanker truck </string>
     <string name="hh0717"> small cart with tank </string>
-    <string name="hh0718"> Surface water (river / dam / lake / pond / stream / canal) </string>
-    <string name="hh0719"> bottled water </string>
-    <string name="hh0720"> rain water </string>
-    <string name="hh0799"> other </string>
+    <string name="hh0718"> Surface Water (River / Dam / Lake / Pond / Stream / Canal) </string>
+    <string name="hh0719"> Bottled Water </string>
+    <string name="hh0720"> Rain Water </string>
+    <string name="hh0799"> Other </string>
 
     <string name="hh08"> If source of water is "other", specify </string>
 
@@ -787,8 +786,13 @@
     <string name="crf2_sectione">HEALTHY SAMPLE EXCLUSION CRITERIA</string>
     <string name="crf2_sectionf">GENERAL SAMPLE EXCLUSION CRITERIA</string>
     <string name="crf2_sectiong">ELIGIBILITY DECISION</string>
+    <string name="crf2_sectioni">MATERNAL HEALTH</string>
+    <string name="crf2_sectionj">BACKGROUND DETAILS HOUSEHOLD</string>
+    <string name="crf2_sectionk">HOUSEHOLD SOCIO-ECONOMIC STATUS</string>
+    <string name="crf2_sectionl">HOUSEHOLD SOCIO-ECONOMIC STATUS: ASSETS (Pakistan)</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dateHint">DD/MM/YYYY</string>
 
 </resources>
