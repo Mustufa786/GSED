@@ -11,6 +11,7 @@
     <string name="length">Length</string>
     <string name="age">Age</string>
     <string name="other">Other</string>
+    <string name="dkn">Dont Know</string>
 
     <string name="end_interview">End Interview</string>
     <string name="nextSection">Next Section</string>
@@ -44,10 +45,7 @@
     <!--Main Layout-->
     <string name="ultrasound">ULTRASOUND</string>
     <string name="eligibility">ELIGIBILITY FORM</string>
-
-
     <string name="cs01"> Worker code </string>
-
     <string name="cs02"> DSS ID </string>
 
     <string name="cs0101aa"> [Site specific] </string>
@@ -438,7 +436,6 @@
     <string name="pd08"> If yes specify </string>
 
 
-
     <string name="pd09"> Have you ever used any recreational drugs? </string>
     <string name="pd091"> yes </string>
     <string name="pd092"> no </string>
@@ -536,7 +533,6 @@
     <string name="pd262"> 24 hours or more </string>
     <string name="pd268"> don’t know </string>
     <string name="pd269"> NA </string>
-
 
 
     <string name="mh"> MATERNAL HEALTH </string>
@@ -778,19 +774,10 @@
     <string name="hh4913"> Other </string>
 
 
-
-
-
-
-
-
-
-
-
-
     <!--CRF2-->
     <string name="crf2_sectiona">COVER SHEET</string>
     <string name="crf2_sectionb">CHILD’S CHRONIC HEALTH/ NEURODEVELOPMENTAL DISABILITIES</string>
     <string name="dateHint">DD/MM/YYYY</string>
+    <string name="crf2_sectionc">CHILD’S ACCUTE HEALTH</string>
 
 </resources>
