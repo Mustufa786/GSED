@@ -18,7 +18,7 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        style="@style/EditText"
+                        style="@style/i_textview"
                         android:text="@string/lorem" />
 
                     <RadioGroup
@@ -57,7 +57,7 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        style="@style/EditText"
+                        style="@style/i_textview"
                         android:text="@string/lorem" />
 
                     <RadioGroup
