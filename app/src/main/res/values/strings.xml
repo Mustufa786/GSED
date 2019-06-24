@@ -50,6 +50,8 @@
 
     <string name="cs02"> DSS ID </string>
 
+    <string name="cs0101aa"> [Site specific] </string>
+
     <string name="cs03"> Date filling the form </string>
     <string name="cs03dd"> DD </string>
     <string name="cs03mm"> MM </string>
@@ -61,13 +63,10 @@
     <string name="cs0420"> Tanzania-Pemba </string>
 
     <string name="cs05"> Has the woman mother given her consent to be enrolled in the study? </string>
-    <string name="cs05a"> yes </string>
-    <string name="ph09"> no </string>
 
     <string name="cs06"> Enrolment cohort </string>
     <string name="cs06a"> ACT </string>
-    <string name="cs0602"> Non ACT </string>
-
+    <string name="cs06b"> Non ACT </string>
 
     <string name="cs07"> If ACT cohort, has mother given consent to access ACT study data? </string>
     <string name="cs07a"> yes </string>
@@ -792,5 +791,6 @@
     <!--CRF2-->
     <string name="crf2_sectiona">COVER SHEET</string>
     <string name="crf2_sectionb">CHILD’S CHRONIC HEALTH/ NEURODEVELOPMENTAL DISABILITIES</string>
+    <string name="dateHint">DD/MM/YYYY</string>
 
 </resources>
