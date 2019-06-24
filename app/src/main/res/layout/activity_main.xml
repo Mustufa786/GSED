@@ -7,7 +7,7 @@
 
         <variable
             name="callback"
-            type="com.aku.dmu.gsed.ui.MainActivity" />
+            type="com.aku.dmu.gsed.ui.mainActivity.MainActivity" />
     </data>
 
     <LinearLayout
