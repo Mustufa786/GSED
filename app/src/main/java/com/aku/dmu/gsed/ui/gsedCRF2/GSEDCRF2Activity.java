@@ -41,7 +41,7 @@ public class GSEDCRF2Activity extends AppCompatActivity implements Callbacks {
     private void setupViewPager() {
 
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new SectionAFragment(), "CS");
+        adapter.addFragment(new SectionAFragment(), "Cover Sheet");
         adapter.addFragment(new SectionBFragment(), "CCH");
         bi.viewpager.setAdapter(adapter);
         bi.tabs.setupWithViewPager(bi.viewpager);
