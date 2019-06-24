@@ -40,6 +40,10 @@
     <string name="U17"> Gestational age at ultrasound in EXTRA DAYS over completed weeks </string>
     <string name="U18"> Any other important finding relevant for the health of the mother or the fetus (e.g. no heartbeat or other reasons for referral). Specify. </string>
 
+    <!--Main Layout-->
+    <string name="ultrasound">ULTRASOUND</string>
+    <string name="eligibility">ELIGIBILITY FORM</string>
+
     <!--CRF2-->
     <string name="crf2_sectiona">COVER SHEET</string>
     <string name="crf2_sectionb">CHILD’S CHRONIC HEALTH/ NEURODEVELOPMENTAL DISABILITIES</string>

@@ -7,9 +7,9 @@ import java.lang.annotation.RetentionPolicy;
 
 public class SConstants {
 
-    public final static String _HOST_URL_1 = "http://43.245.131.159:8080/kmc/api/";
-    public final static String _HOST_URL_2 = "http://58.65.211.13:8080/kmc/api/";
-    public final static String _TEST_URL = "http://10.1.42.30/kmc/api/";
+    public final static String _HOST_URL_1 = "http://43.245.131.159:8080/gsed/api/";
+    public final static String _HOST_URL_2 = "http://58.65.211.13:8080/gsed/api/";
+    public final static String _TEST_URL = "http://10.1.42.30/gsed/api/";
     public final static String[] HOST = new String[]{_HOST_URL_1, _HOST_URL_2/*,_TEST_URL*/};
     private final static String _IP = "43.245.131.159"; // Server 1
     private final static String _ALTERNATE_IP = "58.65.211.13"; // Server 2
