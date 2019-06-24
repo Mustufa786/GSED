@@ -11,7 +11,9 @@
     <string name="length">Length</string>
     <string name="age">Age</string>
     <string name="other">Other</string>
+    <string name="specify">Please specify other</string>
     <string name="dkn">Dont Know</string>
+    <string name="name"> Name </string>
 
     <string name="end_interview">End Interview</string>
     <string name="nextSection">Next Section</string>
@@ -73,8 +75,8 @@
 
     <string name="cs08"> Child’s GSED ID </string>
     <string name="cs08a"> Country ID </string>
-    <string name="cs08b"> 1= ACT </string>
-    <string name="cs08c"> 2= Non ACT </string>
+    <string name="cs08b"> ACT </string>
+    <string name="cs08c"> Non ACT </string>
     <string name="cs08d"> GSED enrolment number series </string>
 
     <string name="cs09"> Name of the child </string>
@@ -97,50 +99,46 @@
     <string name="cs15"> Which language is (name of the child) learning to speak at home? </string>
 
     <string name="cs16"> Is this the same language as the GSED translation? </string>
-    <string name="cs161"> yes </string>
-    <string name="cs162"> no </string>
-    <string name="cs163"> if no, NOT eligible </string>
+    <string name="cs16a"> Yes </string>
+    <string name="cs16b"> No </string>
+    <string name="cs16c"> if no, NOT eligible </string>
 
 
     <string name="cs17"> Are you (name of the child)’s primary caregiver? </string>
-    <string name="cs171"> yes </string>
-    <string name="cs172"> no </string>
-    <string name="cs173"> if no, NOT eligible </string>
+    <string name="cs17a"> Yes </string>
+    <string name="cs17b"> No </string>
+    <string name="cs17c"> if no, NOT eligible </string>
 
     <string name="cs18"> What is your relationship to (name of the child)? </string>
     <string name="cs1811"> Mother </string>
     <string name="cs1812"> Father </string>
     <string name="cs1813"> Grandmother </string>
     <string name="cs1814"> Grandfather </string>
-    <string name="cs1815"> other </string>
+    <string name="cs1815"> Other </string>
+
     <string name="cs19"> If "other”, please specify </string>
 
-
     <string name="cs20"> What is your age? </string>
-    <string name="cs2088"> 88=don’t know </string>
+    <string name="cs2088"> Don’\t Know = 88 </string>
     <string name="cs2088a"> If &gt; 18 years, NOT eligible </string>
 
-
     <string name="cs21"> What is your current occupation? </string>
-    <string name="cs2111"> government job </string>
-    <string name="cs2112"> private job </string>
-    <string name="cs2113"> self employed </string>
-    <string name="cs2114"> farming only </string>
-    <string name="cs2115"> daily wage earner </string>
-    <string name="cs2116"> other work </string>
-    <string name="cs2117"> does not work </string>
-    <string name="cs2199"> not applicable </string>
-
+    <string name="cs2111"> Government Job </string>
+    <string name="cs2112"> Private Job </string>
+    <string name="cs2113"> Self Employed </string>
+    <string name="cs2114"> Farming Only </string>
+    <string name="cs2115"> Daily Wage Earner </string>
+    <string name="cs2116"> Other Work </string>
+    <string name="cs2117"> Does Not Work </string>
+    <string name="cs2199"> Not Applicable </string>
 
     <string name="cs22"> If occupation is "other work", specify </string>
     <string name="chh"> CHILD’S CHRONIC HEALTH/ NEURODEVELOPMENTAL DISABILITIES </string>
-
 
     <string name="ch01"> Is the child often unwell? </string>
     <string name="ch011"> yes </string>
     <string name="ch012"> no </string>
     <string name="ch018"> don’t know </string>
-
 
     <string name="ch02"> Has your child been diagnosed with a severe or chronic medical condition for which you visit regularly a doctor or a facility (including congenital birth defect, or chronic heart disease)? </string>
     <string name="ch021"> yes </string>
@@ -148,9 +146,7 @@
     <string name="ch028"> don’t know </string>
     <string name="ch028a"> if yes, NOT eligible </string>
 
-
     <string name="ch03"> If yes, please specify </string>
-
 
     <string name="ch04"> Do you have any concerns that your child’s development is different than other children of the same age? </string>
     <string name="ch041"> yes </string>
@@ -779,5 +775,7 @@
     <string name="crf2_sectionb">CHILD’S CHRONIC HEALTH/ NEURODEVELOPMENTAL DISABILITIES</string>
     <string name="dateHint">DD/MM/YYYY</string>
     <string name="crf2_sectionc">CHILD’S ACCUTE HEALTH</string>
+    <string name="cs14h"><![CDATA[If child’s age > 41 months DON\'T proceed.]]></string>
+    <string name="cs20h"><![CDATA[>= 18 Years...]]></string>
 
 </resources>
