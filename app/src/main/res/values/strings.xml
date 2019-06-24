@@ -14,6 +14,7 @@
 
     <string name="end_interview">End Interview</string>
     <string name="nextSection">Next Section</string>
+    <string name="save">Save</string>
 
     <string name="U01"> Worker code </string>
     <string name="U02"> DSS ID </string>
@@ -43,6 +44,750 @@
     <!--Main Layout-->
     <string name="ultrasound">ULTRASOUND</string>
     <string name="eligibility">ELIGIBILITY FORM</string>
+
+
+    <string name="cs01"> Worker code </string>
+
+    <string name="cs02"> DSS ID </string>
+
+    <string name="cs03"> Date filling the form </string>
+    <string name="cs03dd"> DD </string>
+    <string name="cs03mm"> MM </string>
+    <string name="cs03yyyy"> YYYY </string>
+
+    <string name="cs04"> Study site </string>
+    <string name="cs0411"> Bangladesh </string>
+    <string name="cs0417"> Pakistan-Karachi </string>
+    <string name="cs0420"> Tanzania-Pemba </string>
+
+    <string name="cs05"> Has the woman mother given her consent to be enrolled in the study? </string>
+    <string name="cs05a"> yes </string>
+    <string name="ph09"> no </string>
+
+    <string name="cs06"> Enrolment cohort </string>
+    <string name="cs06a"> ACT </string>
+    <string name="cs0602"> Non ACT </string>
+
+
+    <string name="cs07"> If ACT cohort, has mother given consent to access ACT study data? </string>
+    <string name="cs07a"> yes </string>
+    <string name="cs07b"> no </string>
+
+
+    <string name="cs08"> Child’s GSED ID </string>
+    <string name="cs08a"> Country ID </string>
+    <string name="cs08b"> 1= ACT </string>
+    <string name="cs08c"> 2= Non ACT </string>
+    <string name="cs08d"> GSED enrolment number series </string>
+
+    <string name="cs09"> Name of the child </string>
+
+    <string name="cs10"> Mother’s name </string>
+
+    <string name="cs11"> Father’s name </string>
+
+    <string name="cs12"> Child’s gender </string>
+    <string name="cs12a"> Male </string>
+    <string name="cs12b"> Female </string>
+    <string name="cs13"> Date of birth </string>
+    <string name="cs13dd"> DD </string>
+    <string name="cs13mm"> MM </string>
+    <string name="cs13yyyy"> YYYY </string>
+
+    <string name="cs14"> Child’s age (in days) </string>
+    <string name="cs14a"> If child’s age > 41 months DO NOT proceed </string>
+
+    <string name="cs15"> Which language is (name of the child) learning to speak at home? </string>
+
+    <string name="cs16"> Is this the same language as the GSED translation? </string>
+    <string name="cs161"> yes </string>
+    <string name="cs162"> no </string>
+    <string name="cs163"> if no, NOT eligible </string>
+
+
+    <string name="cs17"> Are you (name of the child)’s primary caregiver? </string>
+    <string name="cs171"> yes </string>
+    <string name="cs172"> no </string>
+    <string name="cs173"> if no, NOT eligible </string>
+
+    <string name="cs18"> What is your relationship to (name of the child)? </string>
+    <string name="cs1811"> Mother </string>
+    <string name="cs1812"> Father </string>
+    <string name="cs1813"> Grandmother </string>
+    <string name="cs1814"> Grandfather </string>
+    <string name="cs1815"> other </string>
+    <string name="cs19"> If "other”, please specify </string>
+
+
+    <string name="cs20"> What is your age? </string>
+    <string name="cs2088"> 88=don’t know </string>
+    <string name="cs2088a"> If &gt; 18 years, NOT eligible </string>
+
+
+    <string name="cs21"> What is your current occupation? </string>
+    <string name="cs2111"> government job </string>
+    <string name="cs2112"> private job </string>
+    <string name="cs2113"> self employed </string>
+    <string name="cs2114"> farming only </string>
+    <string name="cs2115"> daily wage earner </string>
+    <string name="cs2116"> other work </string>
+    <string name="cs2117"> does not work </string>
+    <string name="cs2199"> not applicable </string>
+
+
+    <string name="cs22"> If occupation is "other work", specify </string>
+    <string name="chh"> CHILD’S CHRONIC HEALTH/ NEURODEVELOPMENTAL DISABILITIES </string>
+
+
+    <string name="ch01"> Is the child often unwell? </string>
+    <string name="ch011"> yes </string>
+    <string name="ch012"> no </string>
+    <string name="ch018"> don’t know </string>
+
+
+    <string name="ch02"> Has your child been diagnosed with a severe or chronic medical condition for which you visit regularly a doctor or a facility (including congenital birth defect, or chronic heart disease)? </string>
+    <string name="ch021"> yes </string>
+    <string name="ch022"> no </string>
+    <string name="ch028"> don’t know </string>
+    <string name="ch028a"> if yes, NOT eligible </string>
+
+
+    <string name="ch03"> If yes, please specify </string>
+
+
+    <string name="ch04"> Do you have any concerns that your child’s development is different than other children of the same age? </string>
+    <string name="ch041"> yes </string>
+    <string name="ch042"> no </string>
+    <string name="ch043"> don’t know </string>
+    <string name="ch043a"> if yes, NOT eligible </string>
+
+
+    <string name="ch05"> If yes, which of the below concerns do you have? </string>
+
+    <string name="ch06"> Compared with children of the same age, does the child have difficulty moving/walking? </string>
+    <string name="ch061"> yes </string>
+    <string name="ch062"> no </string>
+    <string name="ch063"> don’t know </string>
+    <string name="ch07"> Compared with children of the same age, does the child have difficulty learning to do new things? </string>
+    <string name="ch071"> yes </string>
+    <string name="ch072"> no </string>
+    <string name="ch073"> don’t know </string>
+
+
+    <string name="ch08"> Other (please specify) </string>
+
+
+    <string name="ch09"> Has the child ever suffered from prolonged (>10 min) seizures or recurrent convulsions (more than 2 or 3 in a day on more than one occasion)? This does not include febrile convulsions </string>
+    <string name="ch091"> yes </string>
+    <string name="ch092"> no </string>
+    <string name="ch093"> don’t know </string>
+
+    <string name="ch10"> Compared with other children does the child have difficulty seeing, either in the daytime or at night?   </string>
+    <string name="ch101"> yes </string>
+    <string name="ch102"> no </string>
+    <string name="ch103"> don’t know </string>
+
+    <string name="ch11"> Compared with other children does the child have difficulty hearing? </string>
+    <string name="ch111"> yes </string>
+    <string name="ch112"> no </string>
+    <string name="ch113"> don’t know </string>
+
+    <string name="ch12"> Does the child have any special needs or disabilities that you know of </string>
+    <string name="ch121"> yes </string>
+    <string name="ch122"> no </string>
+    <string name="ch123"> don’t know </string>
+    <string name="ch123a"> if yes, NOT eligible </string>
+
+    <string name="ch13"> If yes please specify </string>
+
+
+    <string name="chah"> CHILD’S ACUTE HEALTH </string>
+
+    <string name="ch14"> Is the child unwell/ill today or has s/he been in the last 5 days? </string>
+    <string name="ch141"> yes </string>
+    <string name="ch142"> no </string>
+    <string name="ch148"> don’t know </string>
+    <string name="ch148a"> If yes reschedule after 7 days </string>
+
+    <string name="ch15"> If yes, which of these signs does/did the child have? </string>
+    <string name="ch151"> yes </string>
+    <string name="ch152"> no </string>
+    <string name="ch153"> don’t know </string>
+
+    <string name="ch16"> Severe diarrhoea or vomiting </string>
+    <string name="ch161"> yes </string>
+    <string name="ch162"> no </string>
+    <string name="ch163"> don’t know </string>
+
+
+    <string name="ch17"> High fever </string>
+    <string name="ch171"> yes </string>
+    <string name="ch172"> no </string>
+    <string name="ch173"> don’t know </string>
+
+
+    <string name="ch18"> Very sleepy/tired/without energy, only moving when stimulated and not themselves </string>
+    <string name="ch181"> yes </string>
+    <string name="ch182"> no </string>
+    <string name="ch183"> don’t know </string>
+
+
+    <string name="ch19"> Severe cough or difficulty breathing </string>
+    <string name="ch191"> yes </string>
+    <string name="ch192"> no </string>
+    <string name="ch193"> don’t know </string>
+
+
+    <string name="ch20"> Severe sores in the mouth </string>
+    <string name="ch201"> yes </string>
+    <string name="ch202"> no </string>
+    <string name="ch203"> don’t know </string>
+    <string name="ch21"> Convulsions </string>
+    <string name="ch211"> yes </string>
+    <string name="ch212"> no </string>
+    <string name="ch213"> don’t know </string>
+
+
+    <string name="ch22"> Other (specify) </string>
+
+
+    <string name="cah"> CHILD ANTHROPOMETRY </string>
+
+    <string name="ca01"> Which measure was done - child’s length or height? </string>
+    <string name="ca011"> Height </string>
+    <string name="ca012"> Length </string>
+    <string name="ca019"> NA </string>
+    <string name="ca019a"> child not measured </string>
+
+    <string name="ca02"> Child’s height/length (in cm) reader 1 first reading </string>
+    <string name="ca029999"> NA </string>
+    <string name="ca029999a"> child not measured </string>
+
+    <string name="ca03"> Child’s height/length (in cm) reader 2 first reading </string>
+    <string name="ca039999"> NA </string>
+    <string name="ca039999a"> child not measured </string>
+
+
+    <string name="ca04"> Child’s height/length (in cm) reader 1 second reading </string>
+    <string name="ca049999"> NA </string>
+    <string name="ca049999a"> child not measured </string>
+
+
+    <string name="ca05"> Child’s height/length (in cm) reader 2 second reading </string>
+    <string name="ca059999"> NA </string>
+    <string name="ca059999a"> child not measured </string>
+
+
+    <string name="ca06"> Child’s height/length (in cm) reader 1 third reading </string>
+    <string name="ca069999"> NA </string>
+    <string name="ca069999a"> child not measured </string>
+
+    <string name="ca07"> Child’s height/length (in cm) reader 2 third reading </string>
+    <string name="ca079999"> NA </string>
+    <string name="ca079999a"> child not measured </string>
+
+
+    <string name="ca08"> Child’s weight (in grams) reader 1 first reading </string>
+    <string name="ca089999"> NA </string>
+    <string name="ca089999a"> child not measured </string>
+
+    <string name="ca09"> Child’s weight (in grams) reader 2 first reading </string>
+    <string name="ca099999"> NA </string>
+    <string name="ca099999a"> child not measured </string>
+
+    <string name="ca10"> Child’s weight (in grams) reader 1 second reading </string>
+    <string name="ca109999"> NA </string>
+    <string name="ca109999a"> child not measured </string>
+
+    <string name="ca11"> Child’s weight (in grams) reader 2 second reading </string>
+    <string name="ca119999"> NA </string>
+    <string name="ca119999a"> child not measured </string>
+
+
+    <string name="ca12"> Child’s weight (in grams) reader 1 third reading </string>
+    <string name="ca129999"> NA </string>
+    <string name="ca129999a"> child not measured </string>
+
+
+    <string name="ca13"> Child’s weight (in grams) reader 2 third reading </string>
+    <string name="ca139999"> NA </string>
+    <string name="ca139999a"> child not measured </string>
+
+    <string name="hsh"> HEALTHY SAMPLE EXCLUSION CRITERIA </string>
+
+    <string name="hs01"> How many years of formal schooling did you complete? </string>
+    <string name="hs0199"> NA </string>
+    <string name="hs0199a"> if &gt; 5 years EXCLUDE from healthy sample </string>
+
+    <string name="hs02"> Birthweight of baby (gram) </string>
+    <string name="hs028888"> DK </string>
+    <string name="hs029999"> NA </string>
+    <string name="hs029999a"> if &gt; 2500 grams EXCLUDE from healthy sample </string>
+
+
+    <string name="hs03"> Gestational age (report from ultrasound CRF 1) </string>
+    <string name="hs03a"> If &gt; 37 completed weeks (259 days) OR ³ 42 completed weeks (294 days) EXCLUDE from healthy sample </string>
+
+
+    <string name="hs04"> Undernutrition (weight for age, length for age, OR weight for height Z score &gt; –2 on the WHO Child Growth Standards) (report from anthropometric assessment) </string>
+    <string name="hs041"> Yes </string>
+    <string name="hs042"> No </string>
+    <string name="hs041a"> if yes EXCLUDE from healthy sample </string>
+
+
+    <string name="hs05"> Was the child hospitalized longer than usual at birth (e.g. due to asphyxia OR neonatal sepsis)? </string>
+    <string name="hs051"> Yes </string>
+    <string name="hs052"> No </string>
+    <string name="hs051a"> if yes EXCLUDE from healthy sample </string>
+
+
+    <string name="gsg"> GENERAL SAMPLE EXCLUSION CRITERIA </string>
+    <string name="gs01"> Child age > 41 months </string>
+    <string name="gs011"> Yes </string>
+    <string name="gs012"> No </string>
+    <string name="gs011a"> if yes NOT eligible </string>
+
+
+    <string name="gs02"> Family speaks to the child in different language than GSED translated instrument </string>
+    <string name="gs021"> Yes </string>
+    <string name="gs022"> No </string>
+    <string name="gs021a"> if yes NOT eligible </string>
+
+    <string name="gs03"> Primary caregiver &gt; 18 years </string>
+    <string name="gs031"> Yes </string>
+    <string name="gs032"> No </string>
+    <string name="gs031a"> if yes NOT eligible </string>
+
+    <string name="gs04"> Child unwell at the time of assessment </string>
+    <string name="gs041"> Yes </string>
+    <string name="gs042"> No </string>
+    <string name="gs041a"> if yes NOT eligible </string>
+
+    <string name="gs05"> Known severe congenital birth defect </string>
+    <string name="gs051"> Yes </string>
+    <string name="gs052"> No </string>
+    <string name="gs051a"> if yes NOT eligible </string>
+
+    <string name="gs06"> Known severe neurodevelopmental disorder/ disability (that is severe cerebral palsy, severe visual problems, seizures, severe hearing impairment) </string>
+    <string name="gs061"> Yes </string>
+    <string name="gs062"> No </string>
+    <string name="gs061a"> if yes NOT eligible </string>
+
+
+    <string name="ed"> ELIGIBILITY DECISION </string>
+
+
+    <string name="ed01"> Child is eligible for (tick one please) </string>
+    <string name="ed011"> General population </string>
+    <string name="ed012"> Healthy sample </string>
+    <string name="ed013"> none (excluded from study) </string>
+
+    <string name="ed02"> Is this assessment to be included as part of test-retest reliability? </string>
+    <string name="ed021"> yes </string>
+    <string name="ed022"> no </string>
+
+
+    <string name="ed03"> Is this assessment to be included as part of inter-rater reliability? </string>
+    <string name="ed031"> yes </string>
+    <string name="ed032"> no </string>
+
+    <string name="e4"> If yes, has the caregiver given consent to video recording? </string>
+    <string name="ed041"> yes </string>
+    <string name="ed042"> no </string>
+
+    <string name="ed05"> Is this assessment to be included as part of concurrent validity with BSID III? </string>
+    <string name="ed051"> yes </string>
+    <string name="ed052"> no </string>
+
+    <string name="pdh"> PREGNANCY AND DELIVERY HISTORY </string>
+
+    <string name="pd01"> How many pregnancies have you had? </string>
+    <string name="pd0188"> don’t know </string>
+    <string name="pd0199"> NA </string>
+    <string name="pd01a"> first pregnancy </string>
+
+    <string name="pd02"> How many deliveries of a live child have you had? </string>
+    <string name="pd0288"> don’t know </string>
+    <string name="pd0299"> NA </string>
+    <string name="pd02a"> first pregnancy </string>
+
+    <string name="pd03"> How many living children do you have? </string>
+    <string name="pd0388"> don’t know </string>
+    <string name="pd0399"> NA </string>
+    <string name="pd03a"> first pregnancy </string>
+
+    <string name="pd04"> How old is your child? </string>
+    <string name="pd0488"> don’t know </string>
+    <string name="pd0499"> NA </string>
+    <string name="pd04a"> first pregnancy </string>
+
+    <string name="pd05"> Did you have any prolonged (>3 days) high fever during your pregnancy? </string>
+    <string name="pd051"> yes </string>
+    <string name="pd052"> no </string>
+    <string name="pd058"> don’t know </string>
+
+    <string name="pd06"> Were you admitted to sleep at a facility because of the any symptoms you experienced during pregnancy? </string>
+    <string name="pd061"> yes </string>
+    <string name="pd062"> no </string>
+    <string name="pd068"> don’t know </string>
+
+    <string name="pd07"> Did you take any medication regularly during pregnancy? </string>
+    <string name="pd071"> yes </string>
+    <string name="pd072"> no </string>
+    <string name="pd078"> don’t know </string>
+
+    <string name="pd08"> If yes specify </string>
+
+
+
+    <string name="pd09"> Have you ever used any recreational drugs? </string>
+    <string name="pd091"> yes </string>
+    <string name="pd092"> no </string>
+    <string name="pd098"> don’t know </string>
+
+    <string name="pd10"> If yes, when did you use the drug? </string>
+    <string name="pd101"> pre-pregnancy </string>
+    <string name="pd102"> during this pregnancy </string>
+    <string name="pd109"> NA </string>
+    <string name="pd10a"> never used </string>
+
+    <string name="pd11"> If yes, which recreational drug do/did you use? </string>
+    <string name="pd111"> yes </string>
+    <string name="pd112"> no </string>
+    <string name="pd118"> don’t know </string>
+    <string name="pd119"> NA </string>
+    <string name="pd12"> Heroin </string>
+    <string name="pd121"> yes </string>
+    <string name="pd122"> no </string>
+    <string name="pd128"> don’t know </string>
+    <string name="pd129"> NA </string>
+
+    <string name="pd13"> Methadone </string>
+    <string name="pd131"> yes </string>
+    <string name="pd132"> no </string>
+    <string name="pd138"> don’t know </string>
+    <string name="pd139"> NA </string>
+
+    <string name="pd14"> Crack/cocaine </string>
+    <string name="pd141"> yes </string>
+    <string name="pd142"> no </string>
+    <string name="pd148"> don’t know </string>
+    <string name="pd149"> NA </string>
+
+    <string name="pd15"> Amphetamines </string>
+    <string name="pd151"> yes </string>
+    <string name="pd152"> no </string>
+    <string name="pd158"> don’t know </string>
+    <string name="pd159"> NA </string>
+
+    <string name="pd16"> Hallucinogens </string>
+    <string name="pd161"> yes </string>
+    <string name="pd162"> no </string>
+    <string name="pd168"> don’t know </string>
+    <string name="pd169"> NA </string>
+
+    <string name="pd17"> Cannabis </string>
+    <string name="pd171"> yes </string>
+    <string name="pd172"> no </string>
+    <string name="pd178"> don’t know </string>
+    <string name="pd179"> NA </string>
+
+    <string name="pd18"> Benzodiazepines (Diazepam/Valium, etc.) </string>
+    <string name="pd181"> yes </string>
+    <string name="pd182"> no </string>
+    <string name="pd188"> don’t know </string>
+    <string name="pd189"> NA </string>
+
+    <string name="pd19"> Inhalants/solvents </string>
+    <string name="pd191"> yes </string>
+    <string name="pd192"> no </string>
+    <string name="pd198"> don’t know </string>
+    <string name="pd199"> NA </string>
+
+    <string name="pd20"> Other (first option) drug1 </string>
+    <string name="pd201"> yes </string>
+    <string name="pd202"> no </string>
+    <string name="pd208"> don’t know </string>
+    <string name="pd209"> NA </string>
+
+    <string name="pd21"> If other drug 1, specify </string>
+
+    <string name="pd22"> Other (2nd option) drug2 </string>
+    <string name="pd221"> yes </string>
+    <string name="pd222"> no </string>
+    <string name="pd228"> don’t know </string>
+    <string name="pd229"> NA </string>
+
+    <string name="pd23"> If Other drug2, specify </string>
+
+    <string name="pd24"> What type of delivery did you have? </string>
+    <string name="pd241"> normal vaginal </string>
+    <string name="pd242"> assisted vaginal (forceps/vacuum) </string>
+    <string name="pd243"> Caesarean section </string>
+    <string name="pd248"> don’t know </string>
+
+    <string name="pd25"> How much time before delivery of the baby did the waters break? </string>
+    <string name="pd251"> &gt; 24 hours </string>
+    <string name="pd252"> 24 hours or more </string>
+    <string name="pd258"> don’t know </string>
+    <string name="pd259"> NA (broke during delivery/did not break before C-section) </string>
+
+    <string name="pd26"> How much time before delivery of the baby did the woman’s labour pains start? </string>
+    <string name="pd261"> 24 hours </string>
+    <string name="pd262"> 24 hours or more </string>
+    <string name="pd268"> don’t know </string>
+    <string name="pd269"> NA </string>
+
+
+
+    <string name="mh"> MATERNAL HEALTH </string>
+
+    <string name="m01"> Would you rate your health as being good overall? </string>
+    <string name="m011"> yes </string>
+    <string name="m012"> no </string>
+    <string name="m018"> don’t know </string>
+
+    <string name="m02"> Do you have any diagnosed chronic conditions for which you visit a doctor or health facility on a regular basis? </string>
+    <string name="m021"> yes </string>
+    <string name="m022"> no </string>
+    <string name="m028"> don’t know </string>
+
+    <string name="hh"> BACKGROUND DETAILS HOUSEHOLD </string>
+
+    <string name="hh01"> Who is the head of your household? </string>
+    <string name="hh0111"> Mother of baby </string>
+    <string name="h0112"> Father of baby </string>
+    <string name="h0113"> Grandmother of baby </string>
+    <string name="h0114"> Grandfather of baby </string>
+    <string name="hh0115"> other </string>
+
+    <string name="hh02"> If "other”, please specify </string>
+
+    <string name="hh03"> How many years of schooling did the child’s father or head of the household complete? </string>
+    <string name="hh0300"> 00 to 25 </string>
+    <string name="hh0399"> not applicable </string>
+    <string name="hh0388"> not known </string>
+
+    <string name="hh04"> What is the current occupation of the father or the head of the household? </string>
+    <string name="hh0411"> government service </string>
+    <string name="hh0412"> private service </string>
+    <string name="hh0413"> daily wage earner </string>
+    <string name="hh0414"> self employed </string>
+    <string name="hh0415"> farming </string>
+    <string name="hh0416"> does not work </string>
+    <string name="hh0417"> other </string>
+    <string name="hh0499"> not applicable </string>
+
+    <string name="hh05"> If occupation of child’s father or head of the household is "other", specify </string>
+
+    <string name="hh06"> Is child’s father currently living with the family? </string>
+    <string name="hh061"> yes </string>
+    <string name="hh062"> no </string>
+    <string name="hh069"> not applicable </string>
+    <string name="hhes"> HOUSEHOLD SOCIO-ECONOMIC STATUS </string>
+
+    <string name="hh07"> What is the main source of drinking water for members of your household? </string>
+    <string name="hh0711"> piped water into the dwelling </string>
+    <string name="hh0712"> public tap </string>
+    <string name="hh0713"> Tube well or borehole or hand pump </string>
+    <string name="hh0714"> Open well </string>
+    <string name="hh0715"> closed well </string>
+    <string name="hh0716"> Tanker truck </string>
+    <string name="hh0717"> small cart with tank </string>
+    <string name="hh0718"> Surface water (river / dam / lake / pond / stream / canal) </string>
+    <string name="hh0719"> bottled water </string>
+    <string name="hh0720"> rain water </string>
+    <string name="hh0799"> other </string>
+
+    <string name="hh08"> If source of water is "other", specify </string>
+
+    <string name="hh09"> What kind of toilet facility do you usually use? </string>
+    <string name="hh09a"> Flush or pour flush toilet </string>
+    <string name="hh09b"> Pit latrine </string>
+    <string name="hh09c"> dry toilet </string>
+    <string name="hh09d"> bucket latrine </string>
+    <string name="hh09e"> No toilet facility (uses open space or field) </string>
+    <string name="hh09f"> other </string>
+
+    <string name="hh10"> If toilet facility is "other", specify </string>
+
+    <string name="hh11"> What is the religion of the head of the household? </string>
+    <string name="hh1111"> Christian </string>
+    <string name="hh1112"> Muslim </string>
+    <string name="hh1113"> Hindu </string>
+    <string name="hh1114"> none </string>
+    <string name="hh1115"> Traditional African </string>
+    <string name="hh1116"> other </string>
+
+    <string name="hh12"> If religion "other", specify </string>
+
+    <string name="hh13"> What is the ethnic group of the head of the household? </string>
+    <string name="hh13a"> Each site to decide possible outcomes </string>
+
+    <string name="hh14"> What type of fuel does the household mainly use for cooking </string>
+    <string name="hh1411"> electricity </string>
+    <string name="hh1412"> liquid petroleum gas / natural gas </string>
+    <string name="hh1413"> kerosene </string>
+    <string name="hh1414"> coal / lignite </string>
+    <string name="hh1415"> charcoal </string>
+    <string name="hh1416"> wood </string>
+    <string name="hh1417"> straw /shrub / grass, </string>
+    <string name="hh1418"> agricultural crop waste, </string>
+    <string name="hh1419"> dung cakes, </string>
+    <string name="hh1420"> biogas </string>
+    <string name="hh1421"> other </string>
+    <string name="hh15"> If cooking fuel is "other", specify </string>
+
+    <string name="hh16"> How many rooms in your house (including the kitchen) are used for sleeping </string>
+    <string name="hh16a"> [01 to 20] </string>
+
+    <string name="hh17"> How many persons slept in the house last night? </string>
+    <string name="hh17a"> [01 to 20] </string>
+
+    <string name="hhse"> HOUSEHOLD SOCIO-ECONOMIC STATUS: ASSETS (Pakistan) </string>
+
+    <string name="hh18"> Do you own or rent the house you live in, or do you have another type of arrangement, such as “perching”? </string>
+    <string name="hh1811"> Sole Ownership </string>
+    <string name="hh1812"> Joint Ownership </string>
+    <string name="hh1813"> Renting </string>
+    <string name="hh1814"> Family/relative’s house </string>
+    <string name="hh1815"> House provided rent free </string>
+    <string name="hh1816"> Perching </string>
+    <string name="hh1817"> Other </string>
+    <string name="hh1888"> NK </string>
+
+    <string name="hh19"> Does this household own any land? </string>
+    <string name="hh191"> Yes </string>
+    <string name="hh192"> No </string>
+
+    <string name="hh20"> Does anyone in the household own: </string>
+
+    <string name="hh21"> Is there electrical supply at home? </string>
+    <string name="hh211"> Yes </string>
+    <string name="hh212"> No </string>
+
+    <string name="hh22"> Chickens </string>
+    <string name="hh221"> Yes </string>
+    <string name="hh222"> No </string>
+    <string name="hh23"> Sheep </string>
+    <string name="hh231"> Yes </string>
+    <string name="hh232"> No </string>
+
+    <string name="hh24"> Other animals </string>
+    <string name="hh241"> Yes </string>
+    <string name="hh242"> No </string>
+
+    <string name="hh25"> Mattress </string>
+    <string name="hh251"> Yes </string>
+    <string name="hh252"> No </string>
+
+    <string name="hh26"> Stove or cooker </string>
+    <string name="hh261"> Yes </string>
+    <string name="hh262"> No </string>
+
+    <string name="hh27"> Chair </string>
+    <string name="hh271"> Yes </string>
+    <string name="hh272"> No </string>
+
+    <string name="hh28"> Cot or bed </string>
+    <string name="hh281"> Yes </string>
+    <string name="hh282"> No </string>
+
+    <string name="hh29"> Divider </string>
+    <string name="hh291"> Yes </string>
+    <string name="hh292"> No </string>
+
+    <string name="hh30"> Table </string>
+    <string name="hh301"> Yes </string>
+    <string name="hh302"> No </string>
+
+    <string name="hh31"> Electric fan </string>
+    <string name="hh311"> Yes </string>
+    <string name="hh312"> No </string>
+    <string name="hh32"> Radio </string>
+    <string name="hh321"> Yes </string>
+    <string name="hh322"> No </string>
+
+    <string name="hh33"> Television </string>
+    <string name="hh331"> Yes </string>
+    <string name="hh332"> No </string>
+
+    <string name="hh34"> Sewing machine </string>
+    <string name="hh341"> Yes </string>
+    <string name="hh342"> No </string>
+
+    <string name="hh35"> Mobile telephone </string>
+    <string name="hh351"> Yes </string>
+    <string name="hh352"> No </string>
+
+    <string name="hh36"> Mosquito net </string>
+    <string name="hh361"> Yes </string>
+    <string name="hh362"> No </string>
+
+    <string name="hh37"> Computer </string>
+    <string name="hh371"> Yes </string>
+    <string name="hh372"> No </string>
+
+    <string name="h38"> Refrigerator </string>
+    <string name="hh381"> Yes </string>
+    <string name="hh382"> No </string>
+
+    <string name="h39"> Watch or clock </string>
+    <string name="hh391"> Yes </string>
+    <string name="hh392"> No </string>
+
+    <string name="h40"> Bicycle </string>
+    <string name="hh401"> Yes </string>
+    <string name="hh402"> No </string>
+
+    <string name="h41"> Motor cycle or scooter </string>
+    <string name="hh411"> Yes </string>
+    <string name="hh412"> No </string>
+
+    <string name="h42"> Animal-drawn cart </string>
+    <string name="hh421"> Yes </string>
+    <string name="hh422"> No </string>
+
+    <string name="h43"> Car </string>
+    <string name="hh431"> Yes </string>
+    <string name="hh432"> No </string>
+
+    <string name="h44"> Thresher </string>
+    <string name="hh441"> Yes </string>
+    <string name="hh442"> No </string>
+
+    <string name="h45"> Tractor </string>
+    <string name="hh451"> Yes </string>
+    <string name="hh452"> No </string>
+
+    <string name="h46"> Materials used in the construction of the house (observe): H45 </string>
+
+    <string name="h47"> Flooring in sleeping rooms </string>
+    <string name="hh4711"> Cement </string>
+    <string name="hh4712"> Mud/clay </string>
+
+    <string name="h48"> Roof of household </string>
+    <string name="hh4811"> Metal </string>
+    <string name="hh4812"> Asbestos </string>
+    <string name="hh4813"> Thatch </string>
+    <string name="hh4814"> Mud </string>
+    <string name="hh4815"> Other </string>
+
+    <string name="h49"> Wall of household </string>
+    <string name="hh4911"> Cement </string>
+    <string name="hh4912"> Mud </string>
+    <string name="hh4913"> Other </string>
+
+
+
+
+
+
+
+
+
+
+
 
     <!--CRF2-->
     <string name="crf2_sectiona">COVER SHEET</string>
