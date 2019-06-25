@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.gsedCRF2.fragments.SectionIJKFragment">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="callback"
+            type="com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionIJKFragment" />
+    </data>
 
     <ScrollView
         style="@style/BackgroundStyle"
@@ -682,7 +693,7 @@
                             android:text="@string/hh1420" />
 
                         <RadioButton
-                            android:id="@+id/hh1499"
+                            android:id="@+id/hh1421"
                             style="@style/radiobutton"
                             android:text="@string/hh1421" />
 

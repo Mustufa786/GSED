@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.gsedCRF2.fragments.SectionAFragment">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="callback"
+            type="com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionAFragment" />
+    </data>
 
     <ScrollView
         style="@style/BackgroundStyle"
@@ -232,12 +243,12 @@
                         android:text="@string/cs08" />
 
                     <CheckBox
-                            android:id="@+id/cs08a"
+                        android:id="@+id/cs08a"
                         style="@style/checkbox"
                         android:text="@string/cs08a" />
 
                     <CheckBox
-                            android:id="@+id/cs08b"
+                        android:id="@+id/cs08b"
                         style="@style/checkbox"
                         android:text="@string/cs08b" />
 

@@ -21,7 +21,7 @@ public class SectionDFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         bi = DataBindingUtil.inflate(inflater, R.layout.fragment_section_d, container, false);
-
+        bi.setCallback(this);
         getActivity().setTitle(getString(R.string.crf2_sectiond));
 
         return bi.getRoot();
