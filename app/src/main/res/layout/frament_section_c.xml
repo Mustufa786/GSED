@@ -13,6 +13,15 @@
             type="com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionCFragment" />
     </data>
 
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="callback"
+            type="com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionCFragment" />
+    </data>
+
     <ScrollView
         style="@style/BackgroundStyle"
         android:layout_width="match_parent"

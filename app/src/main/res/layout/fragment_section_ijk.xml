@@ -13,6 +13,15 @@
             type="com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionIJKFragment" />
     </data>
 
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="callback"
+            type="com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionIJKFragment" />
+    </data>
+
     <ScrollView
         style="@style/BackgroundStyle"
         android:layout_width="match_parent"
@@ -20,7 +29,7 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:id="@+id/fldGrpSectionM01"
+            android:id="@+id/llsecIJK"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="60dp"
