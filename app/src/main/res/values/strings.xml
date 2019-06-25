@@ -866,7 +866,7 @@
     <string name="gsfc63"> Can your child make any light marks on paper or in dirt with a crayon or a stick? </string>
     <string name="gsfc64"> Can your child pick up small bits of food and feed him/her-self using his/her hand? </string>
     <string name="gsfc65"> Can your child climb onto an object (rock, porch, step, chair, bed, low table, etc.)? </string>
-    <string name="gsfc66"> Can your child take several steps (3-5) forward without holding onto any person or object, even if they fall down immediately afterward? </string>
+    <string name="gsfc66"> Can your child take several steps (3 n dash- 5) forward without holding onto any person or object, even if they fall down immediately afterward? </string>
     <string name="gsfc67"> Can your child move around by walking, rather than by crawling on his hands and knees? </string>
     <string name="gsfc68"> Does your child make a gesture to indicate “No” (e.g., shaking head)? </string>
     <string name="gsfc69"> Can your child stand up from sitting by himself and take several steps forward? </string>
@@ -1006,36 +1006,35 @@
 
 
     <!--Long Form-->
-
-    <string name="d01l"> Reacts when spoken to* </string>
-    <string name="d01q"> During testing, observe whether the child responds to a person\'s voice. If you do not observe the behavior, stand beside the child so child can see you but is not looking at you. Call the child's name in a normal tone of voice. Score YES: Child clearly responds to the person's voice by startling, moving eyes, turning his or her head, changing activity level, changing facial expressions, or vocalizing. NO: Child shows no change in behavior in response to the person's voice. </string>
-    <string name="d02l"> Eyes fixate* </string>
+    <string name="d01"> Reacts when spoken to* </string>
+    <string name="d01q"> During testing, observe whether the child responds to a person’s voice. If you do not observe the behavior, stand beside the child so child can see you but is not looking at you. Call the child’s name in a normal tone of voice. Score YES: Child clearly responds to the person’s voice by startling, moving eyes, turning his or her head, changing activity level, changing facial expressions, or vocalizing. NO: Child shows no change in behavior in response to the person’s voice. </string>
+    <string name="d02"> Eyes fixate* </string>
     <string name="d02q"> Hold the child on his/her back and put your face about 30 cm (12 inches) above the child\'s face. Score YES: Child looks at you (fixates eyes on your face). NO: Child does not look at you. </string>
-    <string name="d03l"> Smiles in response* </string>
+    <string name="d03"> Smiles in response* </string>
     <string name="d03q"> During testing, observe the child to see how he or she responds to attention NOTE: why the change from observer in the original to caregiver?? from the caregiver, e.g., smiles, laughs, or vocalizes. If you do not note this behavior, ask caregiver to elicit the behavior. Examples of techniques to elicit smile: Caregiver can try snuggling with the child while speaking to him or her, varying vocal quality by changing pitch, loudness, or duration of utterances; gently patting the child while speaking to or singing softly to him or her. Score YES if child smiles in response to the the caregiver. Score NO if child makes no response or cries </string>
-    <string name="d04l"> Startles or jumps/Responds to sounds* </string>
+    <string name="d04"> Startles or jumps/Responds to sounds* </string>
     <string name="d04q"> Stand behind the child and clap loudly. If no response, shake rattle. Rather than another item, substitute rattle with clicking sound. Credit YES: Child responds in any way e.g. a change in activity or expression or eye movement. NO: Child does not respond </string>
-    <string name="d05l"> Lifts head to 45 degrees on prone position* </string>
+    <string name="d05"> Lifts head to 45 degrees on prone position* </string>
     <string name="d05q"> Place the child on his/her tummy on a flat surface. Stand in front and call to child. Score: YES. Child lifts head so that face makes 45 degree angle with the surface for several seconds. Note that the child does not have to look at you - will likely be looking at the surface. No: Child does not lift head or lifts less than few seconds </string>
-    <string name="d06l"> Happy vocalizing or making sounds  not crying* </string>
+    <string name="d06"> Happy vocalizing or making sounds  not crying* </string>
     <string name="d06q"> INCIDENTAL OBSERVATION: Listen and note if child makes sounds other than crying e.g. throaty sounds or sounds such as “uh” or “eh” or “a, a, a” or gurgling sounds. Any vocal sound rather than crying. IF NOT OBSERVED, ask caregiver to play or talk with child to try and elicit vocalizations. Score YES if child makes sounds as described. </string>
-    <string name="d07l"> Fixes and follows through 180 degrees* </string>
+    <string name="d07"> Fixes and follows through 180 degrees* </string>
     <string name="d07q"> USE BRIGHTLY COLORED BALL: Place the child on his/her back and hold a bright object above the child’s face at about 15 cms (6 inches). Move the object in an arc from one side to the other. Score YES: Child follow the bright object through a complete arc from left to right e.g. through 180 degrees. NO: Child does not follow object through complete arc. </string>
-    <string name="d08l"> Frolics alone, plays around moving body, kicking legs in a happy way* </string>
+    <string name="d08"> Frolics alone, plays around moving body, kicking legs in a happy way* </string>
     <string name="d08q"> INCIDENTAL OBSERVATION: Child frolics when lying on back. IF NOT OBSERVED, ask caregiver….Score YES: Child plays around with self, moving body and kicking legs happily. NO: Child does not move arms and legs. Question. Must move legs? </string>
-    <string name="d09l"> Frolics with caregiver (moves body in response to another person)* </string>
+    <string name="d09"> Frolics with caregiver (moves body in response to another person)* </string>
     <string name="d09q"> INCIDENTAL OBSERVATION: Encourage caregiver to play with child while child is lying on back. Score YES: Child moves his or her body in response to being played with by caregiver. NO: Child does not move body </string>
-    <string name="d10l"> Pulls to sit with no head lag* </string>
-    <string name="d10q"> Put the child on his/her back on a flat surface.Hold the child’s hands and pull the baby up to a sitting position. Score: YES. Child’s head comes with the body and does not lag or fall behind while the body is being pulled up. If it does from early on, stop. NO: Child's head lags. </string>
-    <string name="d11l"> Grasps object within reach* </string>
+    <string name="d10"> Pulls to sit with no head lag* </string>
+    <string name="d10q"> Put the child on his/her back on a flat surface.Hold the child’s hands and pull the baby up to a sitting position. Score: YES. Child’s head comes with the body and does not lag or fall behind while the body is being pulled up. If it does from early on, stop. NO: Child’s head lags. </string>
+    <string name="d11"> Grasps object within reach* </string>
     <string name="d11q"> USES RATTLE: While the child is lying on his/her back or is being held by the caregiver, touch the back or tips of the child\'s fingers with the handle of the rattle. Score YES: Child grasps the rattle for a few seconds. Score NO: Child does not grasp rattle </string>
-    <string name="d12l"> Lifts head, shoulders and chest when prone* </string>
+    <string name="d12"> Lifts head, shoulders and chest when prone* </string>
     <string name="d12q"> Put the child on his/her stomach on a flat surface. Score YES: Child lifts HEAD and CHEST off the surface using arms for support so that he/she is looking ahead or even upwards. NO: Child does not lift head and chest off surface and look forward. </string>
-    <string name="d13l"> Laughs/chuckles* </string>
+    <string name="d13"> Laughs/chuckles* </string>
     <string name="d13q"> INCIDENTAL OBSERVATION: See if the child laughs out loud during testing. If you do not note this behavior, ask caregiver to elicit the behavior. Examples of techniques to elicit smile: Snuggling with the child while speaking to him or her, varying vocal quality by changing pitch, loudness, or duration of utterances; gently patting the child while speaking to or singing softly to him or her. Score YES: Child laughs or chuckles. Score NO: Child makes no noise or cries. </string>
-    <string name="d14l"> Recognizes or calms and quiets with caregivers/known family members* </string>
+    <string name="d14"> Recognizes or calms and quiets with caregivers/known family members* </string>
     <string name="d14q"> INCIDENTAL OBSERVATION OR CAREGIVER REPORT: If child cries or fusses during test, observe if child stops crying or quiets when caregiver attends to child. If child does not cry or fuss, ask caregiver if child typically calms when caregiver attends. Score YES: Observe child calming in response to caregiver or caregiver reports child calming. NO: Child does not calm in response to caregiver or caregiver reports that child does not calm in response to caregiver. </string>
-    <string name="d15l"> Puts hands together in front of eyes or mouth* </string>
+    <string name="d15"> Puts hands together in front of eyes or mouth* </string>
     <string name="d15q"> Place the child on his/her back, put the child’s hands in front of the eyes to look at them. Credit. YES: Child keeps hands in front of eyes looking at them or brings hands to eyes or mouth spontaneously. Do not cradle the baby in the parent’s arms during this. NO. Child does not look at or play with hands or does not seem to recognize hands </string>
 
 
