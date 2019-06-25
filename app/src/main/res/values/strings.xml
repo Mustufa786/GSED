@@ -786,6 +786,7 @@
     <string name="dateHint">DD/MM/YYYY</string>
 
     <!--CRF2-->
+    <string name="gsed_info">GSED INFORMATION</string>
     <string name="crf2_sectiona">COVER SHEET</string>
     <string name="crf2_sectionb">CHILD’S CHRONIC HEALTH/ NEURODEVELOPMENTAL DISABILITIES</string>
     <string name="crf2_sectionc">CHILD’S ACCUTE HEALTH</string>
