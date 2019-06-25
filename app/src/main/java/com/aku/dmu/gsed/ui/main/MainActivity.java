@@ -28,6 +28,7 @@ import com.aku.dmu.gsed.databinding.ActivityMainBinding;
 import com.aku.dmu.gsed.getUtils.db.GetAllDBData;
 import com.aku.dmu.gsed.syncUtils.SyncAllData;
 import com.aku.dmu.gsed.ui.gsedCRF2.GSEDCRF2Activity;
+import com.aku.dmu.gsed.ui.gsedLF.GSEDLFActivity;
 import com.aku.dmu.gsed.ui.gsedSF.GSEDSFActivity;
 import com.aku.dmu.gsed.ui.ultrasound.UltrasoundActivity;
 import com.aku.dmu.gsed.utils.Constant.RConstants;
@@ -257,6 +258,8 @@ public class MainActivity extends AppCompatActivity {
                 retClass = GSEDCRF2Activity.class;
                 break;
             case "t6sf":
+                retClass = GSEDLFActivity.class;
+                break;
             case "t6lf":
                 retClass = GSEDSFActivity.class;
                 break;

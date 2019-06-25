@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.gsedLF.fragments.LFSectionAFragment">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="callback"
+            type="com.aku.dmu.gsed.ui.gsedLF.fragments.LFSectionAFragment" />
+    </data>
+
+    <ScrollView
+        style="@style/BackgroundStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/fldGrpSectionA01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@style/i_textview"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="@string/crf2_sectiona"
+                android:textSize="25sp" />
+
+
+            <!-- EditText cs01 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs01"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs01" />
+
+                    <EditText
+                        android:id="@+id/cs01"
+                        style="@style/textInput"
+                        android:hint="@string/cs0101aa" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- EditText cs01 Ends -->
+
+            <!-- EditText cs02 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs02"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs02" />
+
+                    <EditText
+                        android:id="@+id/cs02"
+                        style="@style/textInput"
+                        android:hint="@string/cs0101aa" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- EditText cs02 Ends -->
+
+            <!-- EditText cs03 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs03"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs03" />
+
+                    <EditText
+                        android:id="@+id/cs03"
+                        style="@style/EditText_number"
+                        android:hint="@string/dateHint" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- EditText cs03 Ends -->
+
+            <!-- Radio Button cs04 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs04"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs04" />
+
+                    <RadioGroup
+                        android:id="@+id/cs04"
+                        style="@style/radiogroup">
+
+                        <RadioButton
+                            android:id="@+id/cs0411"
+                            style="@style/radiobutton"
+                            android:text="@string/cs0411" />
+
+                        <RadioButton
+                            android:id="@+id/cs0417"
+                            style="@style/radiobutton"
+                            android:text="@string/cs0417" />
+
+                        <RadioButton
+                            android:id="@+id/cs0420"
+                            style="@style/radiobutton"
+                            android:text="@string/cs0420" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Radio Button cs04 Ends -->
+
+            <!-- Radio Button cs05 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs05"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs05" />
+
+                    <RadioGroup
+                        android:id="@+id/cs05"
+                        style="@style/radiogroup">
+
+                        <RadioButton
+                            android:id="@+id/cs05a"
+                            style="@style/radiobutton"
+                            android:text="@string/yes" />
+
+                        <RadioButton
+                            android:id="@+id/cs05b"
+                            style="@style/radiobutton"
+                            android:text="@string/no" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Radio Button cs05 Ends -->
+
+            <!-- Radio Button cs06 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs06"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs06" />
+
+                    <RadioGroup
+                        android:id="@+id/cs06"
+                        style="@style/radiogroup">
+
+                        <RadioButton
+                            android:id="@+id/cs061"
+                            style="@style/radiobutton"
+                            android:text="@string/cs0601" />
+
+                        <RadioButton
+                            android:id="@+id/cs06b"
+                            style="@style/radiobutton"
+                            android:text="@string/cs0602" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Radio Button cs06 Ends -->
+
+            <!-- Radio Button cs07 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs07"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs07" />
+
+                    <RadioGroup
+                        android:id="@+id/cs07"
+                        style="@style/radiogroup">
+
+                        <RadioButton
+                            android:id="@+id/cs07a"
+                            style="@style/radiobutton"
+                            android:text="@string/yes" />
+
+                        <RadioButton
+                            android:id="@+id/cs07b"
+                            style="@style/radiobutton"
+                            android:text="@string/no" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Radio Button cs07 Ends -->
+
+            <!-- EditText & CheckBox cs08 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs08"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs08" />
+
+                    <CheckBox
+                        android:id="@+id/cs08a"
+                        style="@style/checkbox"
+                        android:text="@string/cs08a" />
+
+                    <CheckBox
+                        android:id="@+id/cs08b"
+                        style="@style/checkbox"
+                        android:text="@string/cs08b" />
+
+                    <CheckBox
+                        android:id="@+id/cs08c"
+                        style="@style/checkbox"
+                        android:text="@string/cs08c" />
+
+                    <CheckBox
+                        android:id="@+id/cs08d"
+                        style="@style/checkbox"
+                        android:text="@string/cs08d" />
+
+                    <EditText
+                        android:id="@+id/cs08"
+                        style="@style/textInput"
+                        android:hint="@string/cs08" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- EditText & CheckBox cs08 Ends -->
+
+            <!-- EditText cs09 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs09"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs09" />
+
+                    <EditText
+                        android:id="@+id/cs09"
+                        style="@style/textInput"
+                        android:hint="@string/name" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- EditText cs09 Ends -->
+
+            <!-- EditText cs10 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs10"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs10" />
+
+                    <EditText
+                        android:id="@+id/cs10"
+                        style="@style/textInput"
+                        android:hint="@string/name" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- EditText cs10 Ends -->
+
+            <!-- EditText cs11 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs11"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs11" />
+
+                    <EditText
+                        android:id="@+id/cs11"
+                        style="@style/textInput"
+                        android:hint="@string/name" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- EditText cs11 Ends -->
+
+            <!-- Radio Button cs12 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs12"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs12" />
+
+                    <RadioGroup
+                        android:id="@+id/cs12"
+                        style="@style/radiogroup">
+
+                        <RadioButton
+                            android:id="@+id/cs12a"
+                            style="@style/radiobutton"
+                            android:text="@string/cs12a" />
+
+                        <RadioButton
+                            android:id="@+id/cs12b"
+                            style="@style/radiobutton"
+                            android:text="@string/cs12b" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Radio Button cs12 Ends -->
+
+            <!-- EditText cs13 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs13"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs13" />
+
+                    <EditText
+                        android:id="@+id/cs13"
+                        style="@style/textInput"
+                        android:hint="@string/dateHint" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- EditText cs13 Ends -->
+
+            <!-- EditText & CheckBox cs14 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs14"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs14" />
+
+                    <EditText
+                        android:id="@+id/cs14"
+                        style="@style/textInput"
+                        android:hint="Less Than 41 months"
+                        android:text='@{cs14a.checked ?  "" : cs14.getText.toString }'
+                        android:visibility='@{cs14a.checked ? View.GONE : View.VISIBLE }' />
+
+                    <CheckBox
+                        android:id="@+id/cs14a"
+                        style="@style/checkbox"
+                        android:text="@string/cs14a" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- EditText & CheckBox cs14 Ends -->
+
+            <!-- EditText cs15 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs15"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs15" />
+
+                    <EditText
+                        android:id="@+id/cs15"
+                        style="@style/textInput"
+                        android:hint="Language" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- EditText cs15 Ends -->
+
+            <!-- Radio Button cs16 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs16"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs16" />
+
+                    <RadioGroup
+                        android:id="@+id/cs16"
+                        style="@style/radiogroup">
+
+                        <RadioButton
+                            android:id="@+id/cs161"
+                            style="@style/radiobutton"
+                            android:text="@string/cs161" />
+
+                        <RadioButton
+                            android:id="@+id/cs162"
+                            style="@style/radiobutton"
+                            android:text="@string/cs162" />
+
+                        <RadioButton
+                            android:id="@+id/cs163"
+                            style="@style/radiobutton"
+                            android:text="@string/cs163" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Radio Button cs16 Ends -->
+
+            <!-- Radio Button cs17 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs17"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs17" />
+
+                    <RadioGroup
+                        android:id="@+id/cs17"
+                        style="@style/radiogroup">
+
+                        <RadioButton
+                            android:id="@+id/cs171"
+                            style="@style/radiobutton"
+                            android:text="@string/cs171" />
+
+                        <RadioButton
+                            android:id="@+id/cs172"
+                            style="@style/radiobutton"
+                            android:text="@string/cs172" />
+
+                        <RadioButton
+                            android:id="@+id/cs173"
+                            style="@style/radiobutton"
+                            android:text="@string/cs173" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Radio Button cs17 Ends -->
+
+            <!-- Radio Button cs18 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs18"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs18" />
+
+                    <RadioGroup
+                        android:id="@+id/cs18"
+                        style="@style/radiogroup">
+
+                        <RadioButton
+                            android:id="@+id/cs1811"
+                            style="@style/radiobutton"
+                            android:text="@string/cs1811" />
+
+                        <RadioButton
+                            android:id="@+id/cs1812"
+                            style="@style/radiobutton"
+                            android:text="@string/cs1812" />
+
+                        <RadioButton
+                            android:id="@+id/cs1813"
+                            style="@style/radiobutton"
+                            android:text="@string/cs1813" />
+
+                        <RadioButton
+                            android:id="@+id/cs1814"
+                            style="@style/radiobutton"
+                            android:text="@string/cs1814" />
+
+                        <RadioButton
+                            android:id="@+id/cs1815"
+                            style="@style/radiobutton"
+                            android:text="@string/other" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Radio Button cs18 Ends -->
+
+            <!-- EditText cs19 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs19"
+                style="@style/cardView"
+                android:visibility='@{cs1815.checked ? View.VISIBLE : View.GONE }'>
+
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs19" />
+
+                    <EditText
+                        android:id="@+id/cs19"
+                        style="@style/textInput"
+                        android:hint="@string/specify"
+                        android:tag="cs1815"
+                        android:text='@{cs1815.checked ?  cs19.getText.toString : "" }' />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- EditText cs19 Ends -->
+
+            <!-- EditText & CheckBox cs20 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs20"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs20" />
+
+                    <EditText
+                        android:id="@+id/cs20"
+                        style="@style/EditText_number"
+                        android:hint="Age"
+                        android:text='@{cs2088.checked || cs2088a.checked ? ""  : cs20.getText.toString }'
+                        android:visibility='@{cs2088.checked || cs2088a.checked ? View.GONE : View.VISIBLE }' />
+
+                    <CheckBox
+                        android:id="@+id/cs2088"
+                        style="@style/checkbox"
+                        android:text="@string/cs2088" />
+
+                    <CheckBox
+                        android:id="@+id/cs2088a"
+                        style="@style/checkbox"
+                        android:text="@string/cs2088a" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- EditText & CheckBox cs20 Ends -->
+
+            <!-- Radio Button cs21 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs21"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs21" />
+
+                    <RadioGroup
+                        android:id="@+id/cs21"
+                        style="@style/radiogroup">
+
+                        <RadioButton
+                            android:id="@+id/cs2111"
+                            style="@style/radiobutton"
+                            android:text="@string/cs2111" />
+
+                        <RadioButton
+                            android:id="@+id/cs2112"
+                            style="@style/radiobutton"
+                            android:text="@string/cs2112" />
+
+                        <RadioButton
+                            android:id="@+id/cs2113"
+                            style="@style/radiobutton"
+                            android:text="@string/cs2113" />
+
+                        <RadioButton
+                            android:id="@+id/cs2114"
+                            style="@style/radiobutton"
+                            android:text="@string/cs2114" />
+
+                        <RadioButton
+                            android:id="@+id/cs2115"
+                            style="@style/radiobutton"
+                            android:text="@string/cs2115" />
+
+                        <RadioButton
+                            android:id="@+id/cs2116"
+                            style="@style/radiobutton"
+                            android:text="@string/cs2116" />
+
+                        <RadioButton
+                            android:id="@+id/cs2117"
+                            style="@style/radiobutton"
+                            android:text="@string/cs2117" />
+
+                        <RadioButton
+                            android:id="@+id/cs2199"
+                            style="@style/radiobutton"
+                            android:text="@string/cs2199" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Radio Button cs21 Ends -->
+
+            <!-- EditText cs22 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVcs22"
+                style="@style/cardView"
+                android:visibility='@{cs2116.checked ? View.VISIBLE : View.GONE }'>
+
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs22" />
+
+                    <EditText
+                        android:id="@+id/cs22"
+                        style="@style/textInput"
+                        android:hint="@string/specify"
+                        android:tag="cs2116"
+                        android:text='@{cs2116.checked ?  cs22.getText.toString : "" }' />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- EditText cs22 Ends -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>
