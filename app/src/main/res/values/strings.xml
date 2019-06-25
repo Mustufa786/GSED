@@ -601,12 +601,12 @@
     <string name="hh08"> If source of water is "other", specify </string>
 
     <string name="hh09"> What kind of toilet facility do you usually use? </string>
-    <string name="hh09a"> Flush or pour flush toilet </string>
-    <string name="hh09b"> Pit latrine </string>
-    <string name="hh09c"> dry toilet </string>
-    <string name="hh09d"> bucket latrine </string>
-    <string name="hh09e"> No toilet facility (uses open space or field) </string>
-    <string name="hh09f"> other </string>
+    <string name="hh0911"> Flush or pour flush toilet </string>
+    <string name="hh0912"> Pit Latrine </string>
+    <string name="hh0913"> Dry Toilet </string>
+    <string name="hh0914"> Bucket Latrine </string>
+    <string name="hh0915"> No toilet facility (uses open space or field) </string>
+    <string name="hh0916"> Other </string>
 
     <string name="hh10"> If toilet facility is "other", specify </string>
 
@@ -614,9 +614,9 @@
     <string name="hh1111"> Christian </string>
     <string name="hh1112"> Muslim </string>
     <string name="hh1113"> Hindu </string>
-    <string name="hh1114"> none </string>
+    <string name="hh1114"> None </string>
     <string name="hh1115"> Traditional African </string>
-    <string name="hh1116"> other </string>
+    <string name="hh1116"> Other </string>
 
     <string name="hh12"> If religion "other", specify </string>
 
@@ -624,17 +624,18 @@
     <string name="hh13a"> Each site to decide possible outcomes </string>
 
     <string name="hh14"> What type of fuel does the household mainly use for cooking </string>
-    <string name="hh1411"> electricity </string>
-    <string name="hh1412"> liquid petroleum gas / natural gas </string>
-    <string name="hh1413"> kerosene </string>
-    <string name="hh1414"> coal / lignite </string>
-    <string name="hh1415"> charcoal </string>
-    <string name="hh1416"> wood </string>
-    <string name="hh1417"> straw /shrub / grass, </string>
-    <string name="hh1418"> agricultural crop waste, </string>
-    <string name="hh1419"> dung cakes, </string>
-    <string name="hh1420"> biogas </string>
-    <string name="hh1421"> other </string>
+    <string name="hh1411"> Electricity </string>
+    <string name="hh1412"> Liquid petroleum gas / natural gas </string>
+    <string name="hh1413"> Kerosene </string>
+    <string name="hh1414"> Coal / Lignite </string>
+    <string name="hh1415"> Charcoal </string>
+    <string name="hh1416"> Wood </string>
+    <string name="hh1417"> Straw / Shrub / Grass, </string>
+    <string name="hh1418"> Agricultural Crop Waste, </string>
+    <string name="hh1419"> Dung Cakes, </string>
+    <string name="hh1420"> Biogas </string>
+    <string name="hh1421"> Other </string>
+
     <string name="hh15"> If cooking fuel is "other", specify </string>
 
     <string name="hh16"> How many rooms in your house (including the kitchen) are used for sleeping </string>
