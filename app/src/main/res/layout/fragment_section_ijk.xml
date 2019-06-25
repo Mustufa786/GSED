@@ -717,6 +717,48 @@
             </android.support.v7.widget.CardView>
             <!-- EditText hh15 Ends -->
 
+            <!-- EditText hh16 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVhh16"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/hh16" />
+
+                    <EditText
+                        android:id="@+id/hh16"
+                        style="@style/EditText"
+                        android:hint="@string/hh16a" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- EditText hh16 Ends -->
+
+            <!-- EditText hh17 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVhh17"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/hh17" />
+
+                    <EditText
+                        android:id="@+id/hh17"
+                        style="@style/EditText"
+                        android:hint="@string/hh17a" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- EditText hh17 Ends -->
+
         </LinearLayout>
 
     </ScrollView>
