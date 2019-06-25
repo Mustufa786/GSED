@@ -92,6 +92,79 @@
             </android.support.v7.widget.CardView>
             <!-- Radio Button cs04 Ends -->
 
+
+            <!-- TextView & Button gsedCheck Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVgsed01"
+                style="@style/cardView"
+                android:layout_margin="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Button
+                        android:id="@+id/gsedCheck"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimary"
+                        android:text="CHECK"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/gsed01"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="@string/cs02"
+                        android:inputType="numberSigned"
+                        android:maxLength="6"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Radio Button gsedCheck Ends -->
+
+            <!-- TextView & Button gsedSubmit Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/CVgsed02"
+                style="@style/cardView">
+
+                <LinearLayout style="@style/linerlayout_view">
+
+                    <Button
+                        android:id="@+id/gsedSubmit"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary"
+                        android:text="Submit"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/mName"
+                        style="@style/textView3Head"
+                        android:layout_marginTop="5dp"
+                        android:hint="@string/cs10" />
+
+                    <TextView
+                        android:id="@+id/cName"
+                        style="@style/textView3Head"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/cs09" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Radio Button gsedSubmit Ends -->
+
             <!-- Radio Button cs05 Starts -->
             <android.support.v7.widget.CardView
                 android:id="@+id/CVcs05"
@@ -123,38 +196,6 @@
 
             </android.support.v7.widget.CardView>
             <!-- Radio Button cs05 Ends -->
-
-            <!-- TextView & Button cs0001 Starts -->
-            <android.support.v7.widget.CardView
-                android:id="@+id/CVcs0001"
-                style="@style/cardView">
-
-                <LinearLayout style="@style/linerlayout_view">
-
-                    <Button
-                        android:id="@+id/gsedBtn"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@color/colorPrimary"
-                        android:text="Submit"
-                        android:textColor="@color/white"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/gsed01"
-                        style="@style/textView3Head"
-                        android:layout_marginTop="5sp"
-                        android:hint="@string/cs10" />
-
-                    <TextView
-                        android:id="@+id/gsed02"
-                        style="@style/textView3Head"
-                        android:text="@string/cs09" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-            <!-- Radio Button cs0001 Ends -->
 
         </LinearLayout>
 
