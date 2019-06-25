@@ -650,7 +650,7 @@
     <string name="hh1811"> Sole Ownership </string>
     <string name="hh1812"> Joint Ownership </string>
     <string name="hh1813"> Renting </string>
-    <string name="hh1814"> Family/relative’s house </string>
+    <string name="hh1814"> Family / Relative’s house </string>
     <string name="hh1815"> House provided rent free </string>
     <string name="hh1816"> Perching </string>
     <string name="hh1817"> Other </string>
@@ -669,6 +669,7 @@
     <string name="hh22"> Chickens </string>
     <string name="hh221"> Yes </string>
     <string name="hh222"> No </string>
+
     <string name="hh23"> Sheep </string>
     <string name="hh231"> Yes </string>
     <string name="hh232"> No </string>
@@ -728,52 +729,52 @@
     <string name="hh371"> Yes </string>
     <string name="hh372"> No </string>
 
-    <string name="h38"> Refrigerator </string>
+    <string name="hh38"> Refrigerator </string>
     <string name="hh381"> Yes </string>
     <string name="hh382"> No </string>
 
-    <string name="h39"> Watch or clock </string>
+    <string name="hh39"> Watch or clock </string>
     <string name="hh391"> Yes </string>
     <string name="hh392"> No </string>
 
-    <string name="h40"> Bicycle </string>
+    <string name="hh40"> Bicycle </string>
     <string name="hh401"> Yes </string>
     <string name="hh402"> No </string>
 
-    <string name="h41"> Motor cycle or scooter </string>
+    <string name="hh41"> Motor cycle or scooter </string>
     <string name="hh411"> Yes </string>
     <string name="hh412"> No </string>
 
-    <string name="h42"> Animal-drawn cart </string>
+    <string name="hh42"> Animal-drawn cart </string>
     <string name="hh421"> Yes </string>
     <string name="hh422"> No </string>
 
-    <string name="h43"> Car </string>
+    <string name="hh43"> Car </string>
     <string name="hh431"> Yes </string>
     <string name="hh432"> No </string>
 
-    <string name="h44"> Thresher </string>
+    <string name="hh44"> Thresher </string>
     <string name="hh441"> Yes </string>
     <string name="hh442"> No </string>
 
-    <string name="h45"> Tractor </string>
+    <string name="hh45"> Tractor </string>
     <string name="hh451"> Yes </string>
     <string name="hh452"> No </string>
 
-    <string name="h46"> Materials used in the construction of the house (observe): H45 </string>
+    <string name="hh46"> Materials used in the construction of the house (observe): H45 </string>
 
-    <string name="h47"> Flooring in sleeping rooms </string>
+    <string name="hh47"> Flooring in sleeping rooms </string>
     <string name="hh4711"> Cement </string>
     <string name="hh4712"> Mud/clay </string>
 
-    <string name="h48"> Roof of household </string>
+    <string name="hh48"> Roof of household </string>
     <string name="hh4811"> Metal </string>
     <string name="hh4812"> Asbestos </string>
     <string name="hh4813"> Thatch </string>
     <string name="hh4814"> Mud </string>
     <string name="hh4815"> Other </string>
 
-    <string name="h49"> Wall of household </string>
+    <string name="hh49"> Wall of household </string>
     <string name="hh4911"> Cement </string>
     <string name="hh4912"> Mud </string>
     <string name="hh4913"> Other </string>
