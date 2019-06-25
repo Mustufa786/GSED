@@ -133,7 +133,8 @@
 
                     <Button
                         android:id="@+id/gsedBtn"
-                        style="@style/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:background="@color/colorPrimary"
                         android:text="Submit"
                         android:textColor="@color/white"
@@ -141,12 +142,13 @@
 
                     <TextView
                         android:id="@+id/gsed01"
-                        style="@style/i_textview"
+                        style="@style/textView3Head"
+                        android:layout_marginTop="5sp"
                         android:hint="@string/cs10" />
 
                     <TextView
                         android:id="@+id/gsed02"
-                        style="@style/i_textview"
+                        style="@style/textView3Head"
                         android:text="@string/cs09" />
 
                 </LinearLayout>

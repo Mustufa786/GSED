@@ -1009,7 +1009,7 @@
     <!--Long Form-->
 
     <string name="d01l"> Reacts when spoken to* </string>
-    <string name="d01q"> During testing, observe whether the child responds to a person\'s voice. If you do not observe the behavior, stand beside the child so child can see you but is not looking at you. Call the child's name in a normal tone of voice. Score YES: Child clearly responds to the person's voice by startling, moving eyes, turning his or her head, changing activity level, changing facial expressions, or vocalizing. NO: Child shows no change in behavior in response to the person's voice. </string>
+    <string name="d01q"> During testing, observe whether the child responds to a person\'s voice. If you do not observe the behavior, stand beside the child so child can see you but is not looking at you. Call the child\'s name in a normal tone of voice. Score YES: Child clearly responds to the person\'s voice by startling, moving eyes, turning his or her head, changing activity level, changing facial expressions, or vocalizing. NO: Child shows no change in behavior in response to the person\'s voice. </string>
     <string name="d02l"> Eyes fixate* </string>
     <string name="d02q"> Hold the child on his/her back and put your face about 30 cm (12 inches) above the child\'s face. Score YES: Child looks at you (fixates eyes on your face). NO: Child does not look at you. </string>
     <string name="d03l"> Smiles in response* </string>
@@ -1027,9 +1027,9 @@
     <string name="d09l"> Frolics with caregiver (moves body in response to another person)* </string>
     <string name="d09q"> INCIDENTAL OBSERVATION: Encourage caregiver to play with child while child is lying on back. Score YES: Child moves his or her body in response to being played with by caregiver. NO: Child does not move body </string>
     <string name="d10l"> Pulls to sit with no head lag* </string>
-    <string name="d10q"> Put the child on his/her back on a flat surface.Hold the child’s hands and pull the baby up to a sitting position. Score: YES. Child’s head comes with the body and does not lag or fall behind while the body is being pulled up. If it does from early on, stop. NO: Child's head lags. </string>
+    <string name="d10q"> Put the child on his/her back on a flat surface.Hold the childs hands and pull the baby up to a sitting position. Score: YES. Childs head comes with the body and does not lag or fall behind while the body is being pulled up. If it does from early on, stop. NO: Child\'s head lags. </string>
     <string name="d11l"> Grasps object within reach* </string>
-    <string name="d11q"> USES RATTLE: While the child is lying on his/her back or is being held by the caregiver, touch the back or tips of the child\'s fingers with the handle of the rattle. Score YES: Child grasps the rattle for a few seconds. Score NO: Child does not grasp rattle </string>
+    <string name="d11q"> USES RATTLE: While the child is lying on his/her back or is being held by the caregiver, touch the back or tips of the childs fingers with the handle of the rattle. Score YES: Child grasps the rattle for a few seconds. Score NO: Child does not grasp rattle </string>
     <string name="d12l"> Lifts head, shoulders and chest when prone* </string>
     <string name="d12q"> Put the child on his/her stomach on a flat surface. Score YES: Child lifts HEAD and CHEST off the surface using arms for support so that he/she is looking ahead or even upwards. NO: Child does not lift head and chest off surface and look forward. </string>
     <string name="d13l"> Laughs/chuckles* </string>
