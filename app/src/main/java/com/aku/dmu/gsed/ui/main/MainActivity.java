@@ -1,4 +1,4 @@
-package com.aku.dmu.gsed.ui.mainActivity;
+package com.aku.dmu.gsed.ui.main;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -28,6 +28,7 @@ import com.aku.dmu.gsed.databinding.ActivityMainBinding;
 import com.aku.dmu.gsed.getUtils.db.GetAllDBData;
 import com.aku.dmu.gsed.syncUtils.SyncAllData;
 import com.aku.dmu.gsed.ui.gsedCRF2.GSEDCRF2Activity;
+import com.aku.dmu.gsed.ui.gsedSF.GSEDSFActivity;
 import com.aku.dmu.gsed.ui.ultrasound.UltrasoundActivity;
 import com.aku.dmu.gsed.utils.Constant.RConstants;
 import com.aku.dmu.gsed.utils.Constant.SConstants;
@@ -249,11 +250,15 @@ public class MainActivity extends AppCompatActivity {
         Class retClass = null;
 
         switch (fType) {
-            case "t1":
+            case "t6a":
                 retClass = UltrasoundActivity.class;
                 break;
-            case "t2":
+            case "t6b":
                 retClass = GSEDCRF2Activity.class;
+                break;
+            case "t6sf":
+            case "t6lf":
+                retClass = GSEDSFActivity.class;
                 break;
         }
 

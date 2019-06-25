@@ -7,7 +7,7 @@
 
         <variable
             name="callback"
-            type="com.aku.dmu.gsed.ui.mainActivity.MainActivity" />
+            type="com.aku.dmu.gsed.ui.main.MainActivity" />
     </data>
 
     <LinearLayout
@@ -128,6 +128,7 @@
                 </LinearLayout>
 
 
+                <!--Layout 1 & 2-->
                 <LinearLayout
                     android:id="@+id/layout1"
                     android:layout_width="match_parent"
@@ -145,7 +146,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:foreground="?android:attr/selectableItemBackground"
-                        android:onClick='@{(v) -> callback.openForm("t1")}'>
+                        android:onClick='@{(v) -> callback.openForm("t6a")}'>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -159,7 +160,9 @@
                                 android:gravity="center"
                                 android:text="@string/ultrasound"
                                 android:textAlignment="center"
-                                android:textColor="@color/colorPrimaryDark" />
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -167,9 +170,7 @@
                                 android:layout_marginTop="10dp"
                                 android:gravity="center"
                                 android:text="TOOL 1"
-                                android:textColor="@color/colorPrimary"
-                                android:textSize="17sp"
-                                android:textStyle="bold" />
+                                android:textColor="@color/colorPrimary" />
 
 
                         </LinearLayout>
@@ -187,7 +188,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:foreground="?android:attr/selectableItemBackground"
-                        android:onClick='@{(v) -> callback.openForm("t2")}'>
+                        android:onClick='@{(v) -> callback.openForm("t6b")}'>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -202,17 +203,107 @@
                                 android:text="@string/eligibility"
                                 android:textAlignment="center"
                                 android:textColor="@color/colorPrimaryDark"
-                                android:textSize="16sp" />
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center"
-                                android:text="TOOL 2"
-                                android:textColor="@color/colorPrimary"
+                                android:text="TOOL 1"
+                                android:textColor="@color/colorPrimary" />
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                </LinearLayout>
+
+                <!--Layout 3 & 4-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="horizontal">
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:onClick='@{(v) -> callback.openForm("t6sf")}'>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/instruments"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimaryDark"
                                 android:textSize="17sp"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="@string/short_form"
+                                android:textColor="@color/colorPrimary" />
+
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent" />
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:onClick='@{(v) -> callback.openForm("t6lf")}'>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/instruments"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/long_form"
+                                android:textColor="@color/colorPrimary" />
                         </LinearLayout>
 
                     </android.support.v7.widget.CardView>
@@ -303,283 +394,6 @@
                         </LinearLayout>
 
                     </android.support.v7.widget.CardView>
-                </LinearLayout>
-
-
-                <Button
-                    android:id="@+id/openForm01a"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/colorPrimary"
-                    android:text="Enrolment and Household SES - Population Survey"
-
-                    android:textColor="@color/white"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openForm01b"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/colorPrimary"
-                    android:text="Enrolment and Household SES - School Cohort"
-
-                    android:textColor="@color/white"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openAnthro"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/colorPrimary"
-                    android:text="Child Anthropometry"
-
-                    android:textColor="@color/white"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openEF"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/colorPrimary"
-                    android:text="Executive Function Skills - Child"
-
-                    android:textColor="@color/white"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openYouthEnrol"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/colorPrimary"
-                    android:text="Enrolment and Questionare - Youth"
-
-                    android:textColor="@color/white"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openYouthEF"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/colorPrimary"
-                    android:text="Executive Function Skills - Youth"
-
-                    android:textColor="@color/white"
-                    android:visibility="gone" />
-
-
-                <Button
-                    android:id="@+id/openA"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:onClick="openA"
-                    android:text="OPEN A"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openB"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:onClick="openB"
-                    android:text="OPEN B"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openC"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:onClick="openC"
-                    android:text="OPEN C"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openD"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:onClick="openD"
-                    android:text="OPEN D"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openE"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:onClick="openE"
-                    android:text="OPEN E"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openF"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:onClick="openF"
-                    android:text="OPEN F"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openG"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:onClick="openG"
-                    android:text="OPEN G"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openH"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:onClick="openH"
-                    android:text="OPEN H"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openI"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:onClick="openI"
-                    android:text="OPEN I"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openJ"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:onClick="openJ"
-                    android:text="OPEN J"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openK"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:onClick="openK"
-                    android:text="OPEN K"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openLMO"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:onClick="openLMO"
-                    android:text="OPEN LMO"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/syncServer"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/colorPrimary"
-                    android:onClick="syncServer"
-                    android:text="Upload Data"
-                    android:textColor="@color/white"
-                    android:visibility="gone" />
-
-                <Button
-                    android:id="@+id/openDB"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/colorPrimary"
-                    android:onClick="openDB"
-                    android:text="Open Database Manager"
-                    android:textColor="@color/white"
-                    android:visibility="gone" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-
-                    <Button
-                        android:id="@+id/syncDevice"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginBottom="8dp"
-                        android:background="@color/colorPrimary"
-                        android:onClick="syncDevice"
-                        android:text="Download Data"
-                        android:textColor="@color/white" />
-
-                    <Button
-                        android:id="@+id/downloadApp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginBottom="8dp"
-                        android:background="@color/red"
-                        android:text="DOWNLOAD APP"
-                        android:textColor="@color/white"
-                        android:visibility="gone" />
-
-                    <Button
-                        android:id="@+id/updateApp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginBottom="8dp"
-                        android:background="@color/colorPrimary"
-                        android:onClick="updateApp"
-                        android:text="Update App"
-                        android:textColor="@color/white"
-                        android:visibility="gone" />
-
-                    <!--<Button
-                        android:id="@+id/openDB"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginTop="16dp"
-                        android:onClick="openDB"
-                        android:text="Open Database Manager" />-->
-
-                    <Button
-                        android:id="@+id/testGPS"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginBottom="8dp"
-                        android:onClick="testGPS"
-                        android:text="Test GPS Coordinates" />
                 </LinearLayout>
 
             </LinearLayout>

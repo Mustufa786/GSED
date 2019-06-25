@@ -7,20 +7,20 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.aku.dmu.gsed.R;
-import com.aku.dmu.gsed.databinding.ActivityGsedCrf2Binding;
+import com.aku.dmu.gsed.databinding.ActivityGsedSfBinding;
 import com.aku.dmu.gsed.ui.gsedSF.adapter.SFViewPagerAdapter;
 import com.aku.dmu.gsed.ui.gsedSF.callbacks.SFCallbacks;
 import com.aku.dmu.gsed.ui.gsedSF.fragments.SFSectionAFragment;
 
 public class GSEDSFActivity extends AppCompatActivity implements SFCallbacks {
 
-    ActivityGsedCrf2Binding bi;
+    ActivityGsedSfBinding bi;
     boolean valid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        bi = DataBindingUtil.setContentView(this, R.layout.activity_gsed_crf2);
+        bi = DataBindingUtil.setContentView(this, R.layout.activity_gsed_sf);
 
         setupViewPager();
 
@@ -39,7 +39,7 @@ public class GSEDSFActivity extends AppCompatActivity implements SFCallbacks {
     private void setupViewPager() {
 
         SFViewPagerAdapter adapter = new SFViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new SFSectionAFragment(), "CS");
+        adapter.addFragment(new SFSectionAFragment(), "SECTION A");
         bi.viewpager.setAdapter(adapter);
         bi.tabs.setupWithViewPager(bi.viewpager);
 

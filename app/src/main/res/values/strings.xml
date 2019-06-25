@@ -49,6 +49,9 @@
     <!--Main Layout-->
     <string name="ultrasound">ULTRASOUND</string>
     <string name="eligibility">ELIGIBILITY FORM</string>
+    <string name="instruments">GSED INSTRUMENTS</string>
+    <string name="short_form">SHORT FORM</string>
+    <string name="long_form">LONG FORM</string>
     <string name="cs01"> Worker code </string>
     <string name="cs02"> DSS ID </string>
 
