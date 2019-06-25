@@ -12,6 +12,12 @@ import com.aku.dmu.gsed.ui.gsedCRF2.adapter.ViewPagerAdapter;
 import com.aku.dmu.gsed.ui.gsedCRF2.callbacks.Callbacks;
 import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionAFragment;
 import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionBFragment;
+import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionCFragment;
+import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionDFragment;
+import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionEFGFragment;
+import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionHFragment;
+import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionIJKFragment;
+import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionLFragment;
 
 public class GSEDCRF2Activity extends AppCompatActivity implements Callbacks {
 
@@ -40,8 +46,14 @@ public class GSEDCRF2Activity extends AppCompatActivity implements Callbacks {
     private void setupViewPager() {
 
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new SectionAFragment(), "Cover Sheet");
+        adapter.addFragment(new SectionAFragment(), "CS");
         adapter.addFragment(new SectionBFragment(), "CCH");
+        adapter.addFragment(new SectionCFragment(), "CAH");
+        adapter.addFragment(new SectionDFragment(), "CA");
+        adapter.addFragment(new SectionEFGFragment(), "CRITERIA");
+        adapter.addFragment(new SectionHFragment(), "PDH");
+        adapter.addFragment(new SectionIJKFragment(), "STATUS");
+        adapter.addFragment(new SectionLFragment(), "ASSETS");
         bi.viewpager.setAdapter(adapter);
         bi.tabs.setupWithViewPager(bi.viewpager);
 
