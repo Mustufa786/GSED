@@ -10,14 +10,14 @@ import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.databinding.ActivityGsedCrf2Binding;
 import com.aku.dmu.gsed.ui.gsedCRF2.adapter.ViewPagerAdapter;
 import com.aku.dmu.gsed.ui.gsedCRF2.callbacks.Callbacks;
-import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionAFragment;
-import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionBFragment;
-import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionCFragment;
-import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionDFragment;
-import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionEFGFragment;
-import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionHFragment;
-import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionIJKFragment;
-import com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionLFragment;
+import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionAFragment;
+import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionBFragment;
+import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionCFragment;
+import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionDFragment;
+import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionEFGFragment;
+import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionHFragment;
+import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionIJKFragment;
+import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionLFragment;
 
 public class GSEDCRF2Activity extends AppCompatActivity implements Callbacks {
 
@@ -46,14 +46,14 @@ public class GSEDCRF2Activity extends AppCompatActivity implements Callbacks {
     private void setupViewPager() {
 
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new SectionAFragment(), "CS");
-        adapter.addFragment(new SectionBFragment(), "CCH");
-        adapter.addFragment(new SectionCFragment(), "CAH");
-        adapter.addFragment(new SectionDFragment(), "CA");
-        adapter.addFragment(new SectionEFGFragment(), "CRITERIA");
-        adapter.addFragment(new SectionHFragment(), "PDH");
-        adapter.addFragment(new SectionIJKFragment(), "STATUS");
-        adapter.addFragment(new SectionLFragment(), "ASSETS");
+        adapter.addFragment(new CRF2SectionAFragment(), "CS");
+        adapter.addFragment(new CRF2SectionBFragment(), "CCH");
+        adapter.addFragment(new CRF2SectionCFragment(), "CAH");
+        adapter.addFragment(new CRF2SectionDFragment(), "CA");
+        adapter.addFragment(new CRF2SectionEFGFragment(), "CRITERIA");
+        adapter.addFragment(new CRF2SectionHFragment(), "PDH");
+        adapter.addFragment(new CRF2SectionIJKFragment(), "STATUS");
+        adapter.addFragment(new CRF2SectionLFragment(), "ASSETS");
         bi.viewpager.setAdapter(adapter);
         bi.tabs.setupWithViewPager(bi.viewpager);
 

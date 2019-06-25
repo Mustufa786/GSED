@@ -1,6 +1,5 @@
 package com.aku.dmu.gsed.ui.gsedCRF2.fragments;
 
-
 import android.content.Context;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -10,27 +9,23 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.aku.dmu.gsed.R;
-import com.aku.dmu.gsed.databinding.FramentSectionABinding;
+import com.aku.dmu.gsed.databinding.FragmentCrf2SectionLBinding;
 import com.aku.dmu.gsed.ui.gsedCRF2.callbacks.Callbacks;
-import com.aku.dmu.gsed.validations.ValidatorClass;
 
 
-/**
- * A simple {@link Fragment} subclass.
- */
-public class SectionAFragment extends Fragment {
+public class CRF2SectionLFragment extends Fragment {
 
     Callbacks callbacks;
-    FramentSectionABinding bi;
+    FragmentCrf2SectionLBinding bi;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        bi = DataBindingUtil.inflate(inflater, R.layout.frament_section_a, container, false);
+        bi = DataBindingUtil.inflate(inflater, R.layout.fragment_crf2_section_l, container, false);
         bi.setCallback(this);
-
-        getActivity().setTitle(getString(R.string.crf2_sectiona));
+        getActivity().setTitle(getString(R.string.crf2_sectionc));
 
         return bi.getRoot();
     }
@@ -41,9 +36,5 @@ public class SectionAFragment extends Fragment {
         super.onAttach(context);
 
         callbacks = (Callbacks) context;
-    }
-
-    public boolean formValidation() {
-        return ValidatorClass.EmptyCheckingContainer(getContext(), bi.fldGrpSectionA01);
     }
 }

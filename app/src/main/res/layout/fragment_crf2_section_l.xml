@@ -2,7 +2,7 @@
 
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".ui.gsedCRF2.fragments.SectionLFragment">
+    tools:context=".ui.gsedCRF2.fragments.CRF2SectionLFragment">
 
     <data>
 
@@ -10,7 +10,7 @@
 
         <variable
             name="callback"
-            type="com.aku.dmu.gsed.ui.gsedCRF2.fragments.SectionLFragment" />
+            type="com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionLFragment" />
     </data>
 
     <ScrollView
