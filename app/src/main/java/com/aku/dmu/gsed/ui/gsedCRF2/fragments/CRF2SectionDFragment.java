@@ -25,7 +25,7 @@ public class CRF2SectionDFragment extends Fragment {
         // Inflate the layout for this fragment
         bi = DataBindingUtil.inflate(inflater, R.layout.fragment_crf2_section_d, container, false);
         bi.setCallback(this);
-        getActivity().setTitle(getString(R.string.crf2_sectionc));
+        getActivity().setTitle(getString(R.string.crf2_sectiond));
 
         return bi.getRoot();
     }

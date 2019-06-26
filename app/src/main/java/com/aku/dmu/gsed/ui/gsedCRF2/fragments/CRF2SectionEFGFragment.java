@@ -29,7 +29,7 @@ public class CRF2SectionEFGFragment extends Fragment {
         // Inflate the layout for this fragment
         bi = DataBindingUtil.inflate(inflater, R.layout.fragment_crf2_section_efg, container, false);
         bi.setCallback(this);
-        getActivity().setTitle(getString(R.string.crf2_sectionc));
+        getActivity().setTitle(getString(R.string.crf2_sectione));
 
         return bi.getRoot();
     }
