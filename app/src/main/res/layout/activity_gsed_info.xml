@@ -27,12 +27,12 @@
             android:orientation="vertical">
 
 
-            <TextView
-                style="@style/i_textview"
-                android:background="@color/colorAccent"
-                android:gravity="center"
-                android:text="@string/gsed_info"
-                android:textSize="25sp" />
+            <!--<TextView-->
+                <!--style="@style/i_textview"-->
+                <!--android:background="@color/colorAccent"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/gsed_info"-->
+                <!--android:textSize="25sp" />-->
 
             <!-- EditText cs02 Starts -->
             <android.support.v7.widget.CardView
@@ -117,7 +117,7 @@
                         android:textStyle="bold" />
 
                     <EditText
-                        android:id="@+id/gsed01"
+                        android:id="@+id/checkID"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -131,30 +131,31 @@
             </android.support.v7.widget.CardView>
             <!-- Radio Button gsedCheck Ends -->
 
-            <!-- TextView & Button gsedSubmit Starts -->
-            <android.support.v7.widget.CardView
-                android:id="@+id/CVgsed02"
-                style="@style/cardView">
+            <!--&lt;!&ndash; TextView & Button gsedSubmit Starts &ndash;&gt;-->
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:id="@+id/CVgsed02"-->
+                <!--style="@style/cardView">-->
 
-                <LinearLayout style="@style/linerlayout_view">
+                <!--<LinearLayout style="@style/linerlayout_view">-->
 
-                    <Button
-                        android:id="@+id/gsedSubmit"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@color/colorPrimary"
-                        android:text="Submit"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                    <!--<Button-->
+                        <!--android:id="@+id/gsedSubmit"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:background="@color/colorPrimary"-->
+                        <!--android:text="Submit"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:textSize="20sp"-->
+                        <!--android:textStyle="bold" />-->
 
 
-                </LinearLayout>
+                <!--</LinearLayout>-->
 
-            </android.support.v7.widget.CardView>
-            <!-- Radio Button gsedSubmit Ends -->
+            <!--</android.support.v7.widget.CardView>-->
+            <!--&lt;!&ndash; Radio Button gsedSubmit Ends &ndash;&gt;-->
 
             <LinearLayout
+                android:visibility="gone"
                 android:id="@+id/checkLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -213,35 +214,37 @@
 
                 </android.support.v7.widget.CardView>
                 <!-- Radio Button cs05 Ends -->
-            </LinearLayout>
 
 
-            <!--  = = = = =  END OF FORM FIELDS  = = = = = -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_marginTop="20dp"
-                android:orientation="horizontal">
+                <!--  = = = = =  END OF FORM FIELDS  = = = = = -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
 
 
-                <Button
-                    android:id="@+id/btn_End"
-                    style="@style/button"
-                    android:layout_marginRight="10dp"
-                    android:onClick="@{() -> callback.BtnEnd()}"
-                    android:text="@string/end_interview"
-                    android:visibility='@{cs05a.checked? View.GONE : View.VISIBLE}' />
+                    <Button
+                        android:id="@+id/btn_End"
+                        style="@style/button"
+                        android:layout_marginRight="10dp"
+                        android:onClick="@{() -> callback.BtnEnd()}"
+                        android:text="@string/end_interview"
+                        android:visibility='@{cs05a.checked? View.GONE : View.VISIBLE}' />
 
-                <Button
-                    android:id="@+id/btn_Continue"
-                    style="@style/button"
-                    android:onClick="@{() -> callback.BtnContinue()}"
-                    android:text="@string/nextSection"
-                    android:visibility='@{cs05a.checked? View.VISIBLE : View.GONE}' />
+                    <Button
+                        android:id="@+id/btn_Continue"
+                        style="@style/button"
+                        android:onClick="@{() -> callback.BtnContinue()}"
+                        android:text="@string/nextSection"
+                        android:visibility='@{cs05a.checked? View.VISIBLE : View.GONE}' />
 
 
-                <!--'onClick' for btn_End will NOT change and always call 'endInterview'-->
+                    <!--'onClick' for btn_End will NOT change and always call 'endInterview'-->
+                </LinearLayout>
+
+
             </LinearLayout>
 
 
