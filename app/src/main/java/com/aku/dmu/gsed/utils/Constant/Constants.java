@@ -24,4 +24,11 @@ public class Constants {
     public static final long MILLISECONDS_IN_9MONTH = MILLIS_IN_SECOND * SECONDS_IN_MINUTE * MINUTES_IN_HOUR * HOURS_IN_DAY * DAYS_IN_9MONTH;
     private static final long DAYS_IN_2_YEAR = 365 * 2;
     public static final long MILLISECONDS_IN_2Years = MILLIS_IN_SECOND * SECONDS_IN_MINUTE * MINUTES_IN_HOUR * HOURS_IN_DAY * DAYS_IN_2_YEAR;
+
+
+    //Mustufa
+    public static final String formType = "formType";
+    public static final String[] DUMMY_CREDENTIALS = new String[]{
+            "test1234:test1234", "testS12345:testS12345", "bar@example.com:world"
+    };
 }

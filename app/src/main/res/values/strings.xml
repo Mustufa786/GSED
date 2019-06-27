@@ -4,6 +4,10 @@
     <!--sample-->
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
 
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="nk">Not Known</string>

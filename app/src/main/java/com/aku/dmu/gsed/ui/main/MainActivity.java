@@ -27,10 +27,10 @@ import com.aku.dmu.gsed.data.Entities.Forms;
 import com.aku.dmu.gsed.databinding.ActivityMainBinding;
 import com.aku.dmu.gsed.getUtils.db.GetAllDBData;
 import com.aku.dmu.gsed.syncUtils.SyncAllData;
+import com.aku.dmu.gsed.ui.GSEDinfo;
 import com.aku.dmu.gsed.ui.gsedCRF2.GSEDCRF2Activity;
-import com.aku.dmu.gsed.ui.gsedLF.GSEDLFActivity;
-import com.aku.dmu.gsed.ui.gsedSF.GSEDSFActivity;
 import com.aku.dmu.gsed.ui.ultrasound.UltrasoundActivity;
+import com.aku.dmu.gsed.utils.Constant.Constants;
 import com.aku.dmu.gsed.utils.Constant.RConstants;
 import com.aku.dmu.gsed.utils.Constant.SConstants;
 
@@ -206,7 +206,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openForm(String fType) {
-        final Intent oF = new Intent(MainActivity.this, selectedForm(fType));
+        final Intent oF = new Intent(MainActivity.this, selectedForm(fType)).putExtra(Constants.formType, fType);
 
         if (sharedPref.getString("tagName", null) != "" && sharedPref.getString("tagName", null) != null) {
             startActivity(oF);
@@ -258,10 +258,8 @@ public class MainActivity extends AppCompatActivity {
                 retClass = GSEDCRF2Activity.class;
                 break;
             case "t6lf":
-                retClass = GSEDLFActivity.class;
-                break;
             case "t6sf":
-                retClass = GSEDSFActivity.class;
+                retClass = GSEDinfo.class;
                 break;
         }
 

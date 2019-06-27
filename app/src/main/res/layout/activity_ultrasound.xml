@@ -30,23 +30,14 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U01"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+                        style="@style/i_textview"
+                        android:text="@string/U01" />
 
 
                     <EditText
                         android:id="@+id/u01"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/U01"
-                        android:textSize="17sp" />
+                        android:hint="@string/U01" />
 
                 </LinearLayout>
 
@@ -58,23 +49,14 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U02"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+                        style="@style/i_textview"
+                        android:text="@string/U02" />
 
 
                     <EditText
                         android:id="@+id/u02"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/U02"
-                        android:textSize="17sp" />
+                        android:hint="@string/U02" />
 
                 </LinearLayout>
 
@@ -85,23 +67,15 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U03"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+
+                        style="@style/i_textview"
+                        android:text="@string/U03" />
 
 
                     <io.blackbox_vision.datetimepickeredittext.view.DatePickerEditText
                         android:id="@+id/u03"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/U03"
-                        android:textSize="17sp" />
+                        android:hint="@string/U03" />
 
                 </LinearLayout>
 
@@ -113,14 +87,8 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U04"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+                        style="@style/i_textview"
+                        android:text="@string/U04" />
 
 
                     <RadioGroup
@@ -131,26 +99,17 @@
 
                         <RadioButton
                             android:id="@+id/U04a"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/U04a" />
 
                         <RadioButton
                             android:id="@+id/U04b"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/U04b" />
 
                         <RadioButton
                             android:id="@+id/U04c"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/U04c" />
 
                     </RadioGroup>
@@ -165,23 +124,15 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U05"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+
+                        style="@style/i_textview"
+                        android:text="@string/U05" />
 
 
                     <EditText
                         android:id="@+id/U05"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/U05"
-                        android:textSize="17sp" />
+                        android:hint="@string/U05" />
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
@@ -191,23 +142,15 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U06"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+
+                        style="@style/i_textview"
+                        android:text="@string/U06" />
 
 
                     <EditText
                         android:id="@+id/U06"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/U06"
-                        android:textSize="17sp" />
+                        android:hint="@string/U06" />
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
@@ -219,22 +162,13 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U07"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+                        style="@style/i_textview"
+                        android:text="@string/U07" />
 
                     <EditText
                         android:id="@+id/U07text"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/length"
-                        android:textSize="17sp" />
+                        android:hint="@string/length" />
 
 
                     <RadioGroup
@@ -245,18 +179,12 @@
 
                         <RadioButton
                             android:id="@+id/U07a"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/nk" />
 
                         <RadioButton
                             android:id="@+id/U07b"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/na" />
 
                     </RadioGroup>
@@ -270,22 +198,14 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U08"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+
+                        style="@style/i_textview"
+                        android:text="@string/U08" />
 
                     <EditText
                         android:id="@+id/U08text"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/length"
-                        android:textSize="17sp" />
+                        android:hint="@string/length" />
 
 
                     <RadioGroup
@@ -296,18 +216,12 @@
 
                         <RadioButton
                             android:id="@+id/U08a"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/nk" />
 
                         <RadioButton
                             android:id="@+id/U08b"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/na" />
 
                     </RadioGroup>
@@ -322,22 +236,14 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U09"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+
+                        style="@style/i_textview"
+                        android:text="@string/U09" />
 
                     <EditText
                         android:id="@+id/U09text"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/length"
-                        android:textSize="17sp" />
+                        android:hint="@string/length" />
 
 
                     <RadioGroup
@@ -348,18 +254,12 @@
 
                         <RadioButton
                             android:id="@+id/U09a"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/nk" />
 
                         <RadioButton
                             android:id="@+id/U09b"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/na" />
 
                     </RadioGroup>
@@ -374,22 +274,13 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U10"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+                        style="@style/i_textview"
+                        android:text="@string/U10" />
 
                     <EditText
                         android:id="@+id/U10text"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/length"
-                        android:textSize="17sp" />
+                        android:hint="@string/length" />
 
 
                     <RadioGroup
@@ -400,18 +291,12 @@
 
                         <RadioButton
                             android:id="@+id/U10a"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/nk" />
 
                         <RadioButton
                             android:id="@+id/U10b"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/na" />
 
                     </RadioGroup>
@@ -426,22 +311,13 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U11"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+                        style="@style/i_textview"
+                        android:text="@string/U11" />
 
                     <EditText
                         android:id="@+id/U11text"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/length"
-                        android:textSize="17sp" />
+                        android:hint="@string/length" />
 
 
                     <RadioGroup
@@ -452,18 +328,12 @@
 
                         <RadioButton
                             android:id="@+id/U11a"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/nk" />
 
                         <RadioButton
                             android:id="@+id/U11b"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/na" />
 
                     </RadioGroup>
@@ -478,22 +348,13 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U12"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+                        style="@style/i_textview"
+                        android:text="@string/U12" />
 
                     <EditText
                         android:id="@+id/U12text"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/length"
-                        android:textSize="17sp" />
+                        android:hint="@string/length" />
 
 
                     <RadioGroup
@@ -504,18 +365,12 @@
 
                         <RadioButton
                             android:id="@+id/U12a"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/nk" />
 
                         <RadioButton
                             android:id="@+id/U12b"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/na" />
 
                     </RadioGroup>
@@ -530,22 +385,13 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U13"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+                        style="@style/i_textview"
+                        android:text="@string/U13" />
 
                     <EditText
                         android:id="@+id/U13text"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/length"
-                        android:textSize="17sp" />
+                        android:hint="@string/length" />
 
 
                     <RadioGroup
@@ -556,18 +402,12 @@
 
                         <RadioButton
                             android:id="@+id/U13a"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/nk" />
 
                         <RadioButton
                             android:id="@+id/U13b"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/na" />
 
                     </RadioGroup>
@@ -582,22 +422,13 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U14"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+                        style="@style/i_textview"
+                        android:text="@string/U14" />
 
                     <EditText
                         android:id="@+id/U14text"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/length"
-                        android:textSize="17sp" />
+                        android:hint="@string/length" />
 
 
                     <RadioGroup
@@ -608,18 +439,12 @@
 
                         <RadioButton
                             android:id="@+id/U14a"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/nk" />
 
                         <RadioButton
                             android:id="@+id/U14b"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/na" />
 
                     </RadioGroup>
@@ -634,22 +459,13 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U15"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+                        style="@style/i_textview"
+                        android:text="@string/U15" />
 
                     <EditText
                         android:id="@+id/U15text"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/length"
-                        android:textSize="17sp" />
+                        android:hint="@string/length" />
 
 
                     <RadioGroup
@@ -660,18 +476,12 @@
 
                         <RadioButton
                             android:id="@+id/U15a"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/nk" />
 
                         <RadioButton
                             android:id="@+id/U15b"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_weight="1"
+                            style="@style/radiobutton"
                             android:text="@string/na" />
 
                     </RadioGroup>
@@ -686,27 +496,17 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U16"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+                        style="@style/i_textview"
+                        android:text="@string/U16" />
 
                     <EditText
                         android:id="@+id/U16text"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/age"
-                        android:textSize="17sp" />
+                        android:hint="@string/age" />
 
                     <CheckBox
                         android:id="@+id/u16"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/checkbox"
                         android:text="@string/nk" />
 
 
@@ -720,27 +520,17 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U17"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+                        style="@style/i_textview"
+                        android:text="@string/U17" />
 
                     <EditText
                         android:id="@+id/U17text"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/age"
-                        android:textSize="17sp" />
+                        android:hint="@string/age" />
 
                     <CheckBox
                         android:id="@+id/u17"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/checkbox"
                         android:text="@string/nk" />
 
 
@@ -753,22 +543,13 @@
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@color/colorPrimary"
-                        android:text="@string/U18"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+                        style="@style/i_textview"
+                        android:text="@string/U18" />
 
                     <EditText
                         android:id="@+id/U18text"
                         style="@style/textInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/other"
-                        android:textSize="17sp" />
+                        android:hint="@string/other" />
 
 
                 </LinearLayout>
@@ -798,10 +579,8 @@
                     android:text="@string/save" />
 
 
-
                 <!--'onClick' for btn_End will NOT change and always call 'endInterview'-->
             </LinearLayout>
-
 
 
         </LinearLayout>

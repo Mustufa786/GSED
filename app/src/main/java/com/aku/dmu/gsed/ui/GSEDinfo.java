@@ -1,15 +1,66 @@
 package com.aku.dmu.gsed.ui;
 
+import android.content.Intent;
+import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Toast;
 
 import com.aku.dmu.gsed.R;
+import com.aku.dmu.gsed.databinding.ActivityGsedInfoBinding;
+import com.aku.dmu.gsed.ui.gsedLF.GSEDLFActivity;
+import com.aku.dmu.gsed.ui.gsedSF.GSEDSFActivity;
+import com.aku.dmu.gsed.utils.Constant.Constants;
 
 public class GSEDinfo extends AppCompatActivity {
+
+    ActivityGsedInfoBinding bi;
+    String formType;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gsed_info);
+
+        bi = DataBindingUtil.setContentView(this, R.layout.activity_gsed_info);
+        bi.setCallback(this);
+
+        formType = getIntent().getStringExtra(Constants.formType);
+
     }
+
+    public boolean formValidation() {
+        return true;
+    }
+
+
+    public void BtnEnd() {
+
+    }
+
+    public void BtnContinue() {
+        if (!formValidation())
+            return;
+
+        SaveDraft();
+        if (UpdateDB()) {
+
+            startActivity(new Intent(this, formType.equals("t6lf") ? GSEDLFActivity.class
+                    : formType.equals("t6sf") ? GSEDSFActivity.class : null));
+        } else {
+
+            Toast.makeText(this, "Error in updating DB", Toast.LENGTH_SHORT).show();
+        }
+
+
+    }
+
+    private boolean UpdateDB() {
+
+        return true;
+    }
+
+    private void SaveDraft() {
+    }
+
 }
