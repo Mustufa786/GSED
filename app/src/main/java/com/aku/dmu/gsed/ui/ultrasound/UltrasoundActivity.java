@@ -1,5 +1,6 @@
 package com.aku.dmu.gsed.ui.ultrasound;
 
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +9,7 @@ import android.widget.Toast;
 import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.databinding.ActivityUltrasoundBinding;
 import com.aku.dmu.gsed.jsonGenerator.GeneratorClass;
+import com.aku.dmu.gsed.ui.main.MainActivity;
 import com.aku.dmu.gsed.validations.ValidatorClass;
 
 import org.json.JSONObject;
@@ -34,7 +36,7 @@ public class UltrasoundActivity extends AppCompatActivity {
 
         SaveDraft();
         if (UpdateDB()) {
-
+            startActivity(new Intent(this, MainActivity.class));
         } else {
             Toast.makeText(this, "Error in updating db!!", Toast.LENGTH_SHORT).show();
         }

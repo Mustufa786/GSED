@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
 
+import com.aku.dmu.gsed.GSEDApp;
 import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.data.AppDatabase;
 import com.aku.dmu.gsed.data.DAO.GetFncDAO;
@@ -21,6 +22,8 @@ import com.aku.dmu.gsed.databinding.ActivityLoginBinding;
 import com.aku.dmu.gsed.getUtils.db.GetIndDBData;
 import com.aku.dmu.gsed.ui.main.MainActivity;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.ExecutionException;
 
 import static com.aku.dmu.gsed.utils.Constant.Constants.DUMMY_CREDENTIALS;
@@ -43,6 +46,11 @@ public class LoginActivity extends AppCompatActivity {
 
         settingListeners();
 
+        bi.txtinstalldate.setText("Ver. " +
+                GSEDApp.versionName + "." + GSEDApp.versionCode + " \r\n( Last Updated: " +
+                new SimpleDateFormat("dd MMM. yyyy").format(new Date(GSEDApp.installedOn))
+                + " )");
+
     }
 
     private void settingListeners() {
@@ -52,6 +60,13 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 attemptLogin();
+            }
+        });
+
+        bi.syncButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(LoginActivity.this, "Sync data is in under construction!!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -142,7 +157,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 if (mlocManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
                     if ((mEmail.equals("dmu@aku") && mPassword.equals("aku?dmu")) ||
-                            (new GetIndDBData(LoginActivity.this,db, GetFncDAO.class.getName(), "getFncDao", "login").execute(mEmail, mPassword).get() != null) ||
+                            (new GetIndDBData(LoginActivity.this, db, GetFncDAO.class.getName(), "getFncDao", "login").execute(mEmail, mPassword).get() != null) ||
                             (mEmail.equals("test1234") && mPassword.equals("test1234"))
                             || (mEmail.equals("test12345") && mPassword.equals("test12345"))) {
 //                                               MainApp.userName = mEmail;

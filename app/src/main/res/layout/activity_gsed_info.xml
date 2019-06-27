@@ -28,11 +28,11 @@
 
 
             <!--<TextView-->
-                <!--style="@style/i_textview"-->
-                <!--android:background="@color/colorAccent"-->
-                <!--android:gravity="center"-->
-                <!--android:text="@string/gsed_info"-->
-                <!--android:textSize="25sp" />-->
+            <!--style="@style/i_textview"-->
+            <!--android:background="@color/colorAccent"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/gsed_info"-->
+            <!--android:textSize="25sp" />-->
 
             <!-- EditText cs02 Starts -->
             <android.support.v7.widget.CardView
@@ -133,33 +133,34 @@
 
             <!--&lt;!&ndash; TextView & Button gsedSubmit Starts &ndash;&gt;-->
             <!--<android.support.v7.widget.CardView-->
-                <!--android:id="@+id/CVgsed02"-->
-                <!--style="@style/cardView">-->
+            <!--android:id="@+id/CVgsed02"-->
+            <!--style="@style/cardView">-->
 
-                <!--<LinearLayout style="@style/linerlayout_view">-->
+            <!--<LinearLayout style="@style/linerlayout_view">-->
 
-                    <!--<Button-->
-                        <!--android:id="@+id/gsedSubmit"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-                        <!--android:background="@color/colorPrimary"-->
-                        <!--android:text="Submit"-->
-                        <!--android:textColor="@color/white"-->
-                        <!--android:textSize="20sp"-->
-                        <!--android:textStyle="bold" />-->
+            <!--<Button-->
+            <!--android:id="@+id/gsedSubmit"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:text="Submit"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textStyle="bold" />-->
 
 
-                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
 
             <!--</android.support.v7.widget.CardView>-->
             <!--&lt;!&ndash; Radio Button gsedSubmit Ends &ndash;&gt;-->
 
             <LinearLayout
-                android:visibility="gone"
                 android:id="@+id/checkLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:visibility="gone"
+                tools:visibility="visible">
 
 
                 <!-- TextView & Button gsedSubmit Starts -->
@@ -171,13 +172,13 @@
                             android:id="@+id/mName"
                             style="@style/textView3Head"
                             android:layout_marginTop="5dp"
-                            android:hint="@string/cs10" />
+                            android:text="Mother Name: Anjum" />
 
                         <TextView
                             android:id="@+id/cName"
                             style="@style/textView3Head"
                             android:layout_marginTop="5dp"
-                            android:text="@string/cs09" />
+                            android:text="Child Name: Hussain" />
 
                     </LinearLayout>
 

@@ -178,13 +178,13 @@
 
 
                 <TextView
-                    android:id="@+id/textView1"
+                    android:id="@+id/txtinstalldate"
                     android:layout_width="match_parent"
-                    android:layout_height="18dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="204dp"
-                    android:gravity="center"
                     android:text="Version 2.1"
+                    android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
