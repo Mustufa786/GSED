@@ -8,6 +8,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CompoundButton;
 
 import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.databinding.FragmentCrf2SectionEfgBinding;
@@ -29,9 +30,35 @@ public class CRF2SectionEFGFragment extends Fragment {
         // Inflate the layout for this fragment
         bi = DataBindingUtil.inflate(inflater, R.layout.fragment_crf2_section_efg, container, false);
         bi.setCallback(this);
-        getActivity().setTitle(getString(R.string.crf2_sectionc));
+        getActivity().setTitle(getString(R.string.crf2_sectione));
+
+        settngListeners();
 
         return bi.getRoot();
+    }
+
+    private void settngListeners() {
+
+        bi.hs0298.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+
+                if (isChecked) {
+                    bi.hs01.setText(null);
+                    bi.hs0299.setChecked(false);
+                }
+            }
+        });
+        bi.hs0299.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+
+                if (isChecked) {
+                    bi.hs01.setText(null);
+                    bi.hs0298.setChecked(false);
+                }
+            }
+        });
     }
 
 
