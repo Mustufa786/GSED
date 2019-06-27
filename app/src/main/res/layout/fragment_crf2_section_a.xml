@@ -21,18 +21,8 @@
 
         <LinearLayout
             android:id="@+id/fldGrpSectionA01"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            android:orientation="vertical">
-
-
-            <TextView
-                style="@style/i_textview"
-                android:background="@color/colorAccent"
-                android:gravity="center"
-                android:text="@string/crf2_sectiona"
-                android:textSize="25sp" />
+            style="@style/linerlayout_view_wt_bound"
+            android:layout_marginBottom="10dp">
 
 
             <!-- EditText cs01 Starts -->
@@ -140,7 +130,7 @@
                 android:id="@+id/CVcs05"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -172,7 +162,7 @@
                 android:id="@+id/CVcs06"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -204,7 +194,7 @@
                 android:id="@+id/CVcs07"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -236,7 +226,7 @@
                 android:id="@+id/CVcs08"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -277,7 +267,7 @@
                 android:id="@+id/CVcs09"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -298,7 +288,7 @@
                 android:id="@+id/CVcs10"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -319,7 +309,7 @@
                 android:id="@+id/CVcs11"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -340,7 +330,7 @@
                 android:id="@+id/CVcs12"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -442,7 +432,7 @@
                 android:id="@+id/CVcs16"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -479,7 +469,7 @@
                 android:id="@+id/CVcs17"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -516,7 +506,7 @@
                 android:id="@+id/CVcs18"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -587,7 +577,7 @@
                 android:id="@+id/CVcs20"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -620,7 +610,7 @@
                 android:id="@+id/CVcs21"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"

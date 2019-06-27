@@ -121,7 +121,7 @@
                 android:id="@+id/CVh01"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -192,7 +192,7 @@
                 android:id="@+id/CVhh03"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -227,7 +227,7 @@
                 android:id="@+id/CVhh04"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -313,7 +313,7 @@
                 android:id="@+id/CVhh06"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -358,7 +358,7 @@
                 android:id="@+id/CVhh07"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -459,7 +459,7 @@
                 android:id="@+id/CVhh09"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -535,7 +535,7 @@
                 android:id="@+id/CVhh11"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -632,7 +632,7 @@
                 android:id="@+id/CVhh14"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"

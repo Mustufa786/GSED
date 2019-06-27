@@ -30,7 +30,7 @@
             <!--pd01-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -77,7 +77,7 @@
             <!--pd02-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -122,7 +122,7 @@
             <!--pd03-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -167,7 +167,7 @@
             <!--pd04-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -206,7 +206,7 @@
             <!--pd05-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -244,7 +244,7 @@
             <!--pd06-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -282,7 +282,7 @@
             <!--pd07-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -323,7 +323,7 @@
                 style="@style/cardView"
                 android:visibility='@{pd07a.checked? View.VISIBLE : View.GONE}'>
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -346,7 +346,7 @@
             <!--pd09-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -391,7 +391,7 @@
                 <!--pd10-->
                 <android.support.v7.widget.CardView style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                         <TextView
                             style="@style/i_textview"
@@ -434,7 +434,7 @@
                 <!--pd11-->
                 <android.support.v7.widget.CardView style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                         <TextView
                             style="@style/i_textview"
@@ -836,7 +836,7 @@
                 <!--pd24-->
                 <android.support.v7.widget.CardView style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                         <TextView
                             style="@style/i_textview"
@@ -880,7 +880,7 @@
                 <!--pd25-->
                 <android.support.v7.widget.CardView style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                         <TextView
                             style="@style/i_textview"
@@ -924,7 +924,7 @@
                 <!--pd26-->
                 <android.support.v7.widget.CardView style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                         <TextView
                             style="@style/i_textview"

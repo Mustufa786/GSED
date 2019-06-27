@@ -257,10 +257,10 @@ public class MainActivity extends AppCompatActivity {
             case "t6b":
                 retClass = GSEDCRF2Activity.class;
                 break;
-            case "t6sf":
+            case "t6lf":
                 retClass = GSEDLFActivity.class;
                 break;
-            case "t6lf":
+            case "t6sf":
                 retClass = GSEDSFActivity.class;
                 break;
         }

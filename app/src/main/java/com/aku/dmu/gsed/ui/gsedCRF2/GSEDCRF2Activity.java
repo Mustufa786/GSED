@@ -57,6 +57,8 @@ public class GSEDCRF2Activity extends AppCompatActivity implements Callbacks {
         bi.viewpager.setAdapter(adapter);
         bi.tabs.setupWithViewPager(bi.viewpager);
 
+        bi.tabs.getTabAt(1).parent.setEnabled(false);
+
     }
 
     @Override

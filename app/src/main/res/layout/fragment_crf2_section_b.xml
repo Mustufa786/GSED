@@ -30,7 +30,7 @@
             <!--ch01-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -66,7 +66,7 @@
             <!--ch02-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -105,7 +105,7 @@
                 style="@style/cardView"
                 android:visibility='@{ch02a.checked? View.VISIBLE : View.GONE}'>
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -128,7 +128,7 @@
             <!--ch04-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -167,7 +167,7 @@
                 style="@style/cardView"
                 android:visibility='@{ch04a.checked? View.VISIBLE : View.GONE}'>
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -190,7 +190,7 @@
             <!--ch06-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -227,7 +227,7 @@
             <!--ch07-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -264,7 +264,7 @@
             <!--ch08-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -286,7 +286,7 @@
             <!--ch09-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -323,7 +323,7 @@
             <!--ch10-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -360,7 +360,7 @@
             <!--ch11-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -397,7 +397,7 @@
             <!--ch12-->
             <android.support.v7.widget.CardView style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
@@ -436,7 +436,7 @@
                 style="@style/cardView"
                 android:visibility='@{ch12a.checked? View.VISIBLE : View.GONE}'>
 
-                <LinearLayout style="@style/linerlayout_view">
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <TextView
                         style="@style/i_textview"
