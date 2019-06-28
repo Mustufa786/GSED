@@ -1,4 +1,4 @@
-package com.aku.dmu.gsed.ui;
+package com.aku.dmu.gsed.ui.login;
 
 import android.app.AlertDialog;
 import android.content.Context;

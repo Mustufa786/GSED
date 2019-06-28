@@ -11,7 +11,9 @@ import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.databinding.ActivityGsedInfoBinding;
 import com.aku.dmu.gsed.ui.gsedLF.GSEDLFActivity;
 import com.aku.dmu.gsed.ui.gsedSF.GSEDSFActivity;
+import com.aku.dmu.gsed.ui.main.MainActivity;
 import com.aku.dmu.gsed.utils.Constant.Constants;
+import com.aku.dmu.gsed.validations.ValidatorClass;
 
 public class GSEDinfo extends AppCompatActivity {
 
@@ -39,18 +41,24 @@ public class GSEDinfo extends AppCompatActivity {
         bi.gsedCheck.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                if (!formValidation())
+                    return;
+
                 bi.checkLayout.setVisibility(View.VISIBLE);
             }
         });
     }
 
     public boolean formValidation() {
-        return true;
+        if (bi.gsedCheck.isPressed())
+            return ValidatorClass.EmptyCheckingContainer(this, bi.fldGrpSectionA02);
+        return ValidatorClass.EmptyCheckingContainer(this, bi.fldGrpSectionA01);
     }
 
 
     public void BtnEnd() {
-
+        startActivity(new Intent(this, MainActivity.class));
     }
 
     public void BtnContinue() {

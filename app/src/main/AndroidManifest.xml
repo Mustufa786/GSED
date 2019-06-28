@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.SplashScreenActivity"
+            android:name=".ui.splashScreen.SplashScreenActivity"
             android:theme="@style/AppTheme1">
 
             <intent-filter>
@@ -26,7 +26,8 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".ui.LoginActivity"
+        <activity
+            android:name=".ui.login.LoginActivity"
             android:theme="@style/AppTheme1">
 
         </activity> <!-- DB inspector will not create its own app -->

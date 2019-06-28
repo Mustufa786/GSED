@@ -12,7 +12,6 @@
             type="com.aku.dmu.gsed.ui.GSEDinfo" />
     </data>
 
-
     <ScrollView
         style="@style/BackgroundStyle"
         android:layout_width="match_parent"
@@ -21,138 +20,109 @@
 
         <LinearLayout
             android:id="@+id/fldGrpSectionA01"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            android:orientation="vertical">
+            style="@style/linerlayout_view">
 
+            <LinearLayout
+                android:id="@+id/fldGrpSectionA02"
+                style="@style/linerlayout_view_wt_bound">
 
-            <!--<TextView-->
-            <!--style="@style/i_textview"-->
-            <!--android:background="@color/colorAccent"-->
-            <!--android:gravity="center"-->
-            <!--android:text="@string/gsed_info"-->
-            <!--android:textSize="25sp" />-->
+                <!-- EditText cs02 Starts -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/CVcs02"
+                    style="@style/cardView">
 
-            <!-- EditText cs02 Starts -->
-            <android.support.v7.widget.CardView
-                android:id="@+id/CVcs02"
-                style="@style/cardView">
+                    <LinearLayout style="@style/linerlayout_view_wt_bound">
 
-                <LinearLayout style="@style/linerlayout_view_wt_bound">
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/cs02" />
 
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="@string/cs02" />
+                        <EditText
+                            android:id="@+id/cs02"
+                            style="@style/textInput"
+                            android:hint="@string/cs0101aa" />
 
-                    <EditText
-                        android:id="@+id/cs02"
-                        style="@style/textInput"
-                        android:hint="@string/cs0101aa" />
+                    </LinearLayout>
 
-                </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- EditText cs02 Ends -->
 
-            </android.support.v7.widget.CardView>
-            <!-- EditText cs02 Ends -->
+                <!-- Radio Button cs04 Starts -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/CVcs04"
+                    style="@style/cardView">
 
-            <!-- Radio Button cs04 Starts -->
-            <android.support.v7.widget.CardView
-                android:id="@+id/CVcs04"
-                style="@style/cardView">
+                    <LinearLayout style="@style/linerlayout_view_wt_bound">
 
-                <LinearLayout style="@style/linerlayout_view_wt_bound">
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/cs04" />
 
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="@string/cs04" />
+                        <RadioGroup
+                            android:id="@+id/cs04"
+                            style="@style/radiogroup">
 
-                    <RadioGroup
-                        android:id="@+id/cs04"
-                        style="@style/radiogroup">
+                            <RadioButton
+                                android:id="@+id/cs0411"
+                                style="@style/radiobutton"
+                                android:text="@string/cs0411" />
 
-                        <RadioButton
-                            android:id="@+id/cs0411"
-                            style="@style/radiobutton"
-                            android:text="@string/cs0411" />
+                            <RadioButton
+                                android:id="@+id/cs0417"
+                                style="@style/radiobutton"
+                                android:text="@string/cs0417" />
 
-                        <RadioButton
-                            android:id="@+id/cs0417"
-                            style="@style/radiobutton"
-                            android:text="@string/cs0417" />
+                            <RadioButton
+                                android:id="@+id/cs0420"
+                                style="@style/radiobutton"
+                                android:text="@string/cs0420" />
 
-                        <RadioButton
-                            android:id="@+id/cs0420"
-                            style="@style/radiobutton"
-                            android:text="@string/cs0420" />
+                        </RadioGroup>
 
-                    </RadioGroup>
+                    </LinearLayout>
 
-                </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- Radio Button cs04 Ends -->
 
-            </android.support.v7.widget.CardView>
-            <!-- Radio Button cs04 Ends -->
+                <!-- TextView & Button gsedCheck Starts -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/CVgsed01"
+                    style="@style/cardView"
+                    android:layout_margin="25dp">
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
 
-            <!-- TextView & Button gsedCheck Starts -->
-            <android.support.v7.widget.CardView
-                android:id="@+id/CVgsed01"
-                style="@style/cardView"
-                android:layout_margin="25dp">
+                        <Button
+                            android:id="@+id/gsedCheck"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:text="CHECK"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:weightSum="2">
+                        <EditText
+                            android:id="@+id/checkID"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:hint="@string/cs02"
+                            android:inputType="numberSigned"
+                            android:maxLength="6"
+                            android:textAlignment="center" />
 
-                    <Button
-                        android:id="@+id/gsedCheck"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:background="@color/colorPrimary"
-                        android:text="CHECK"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                    </LinearLayout>
 
-                    <EditText
-                        android:id="@+id/checkID"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:hint="@string/cs02"
-                        android:inputType="numberSigned"
-                        android:maxLength="6"
-                        android:textAlignment="center" />
+                </android.support.v7.widget.CardView>
+                <!-- Radio Button gsedCheck Ends -->
 
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-            <!-- Radio Button gsedCheck Ends -->
-
-            <!--&lt;!&ndash; TextView & Button gsedSubmit Starts &ndash;&gt;-->
-            <!--<android.support.v7.widget.CardView-->
-            <!--android:id="@+id/CVgsed02"-->
-            <!--style="@style/cardView">-->
-
-            <!--<LinearLayout style="@style/linerlayout_view">-->
-
-            <!--<Button-->
-            <!--android:id="@+id/gsedSubmit"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:background="@color/colorPrimary"-->
-            <!--android:text="Submit"-->
-            <!--android:textColor="@color/white"-->
-            <!--android:textSize="20sp"-->
-            <!--android:textStyle="bold" />-->
-
-
-            <!--</LinearLayout>-->
-
-            <!--</android.support.v7.widget.CardView>-->
-            <!--&lt;!&ndash; Radio Button gsedSubmit Ends &ndash;&gt;-->
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/checkLayout"
@@ -247,7 +217,6 @@
 
 
             </LinearLayout>
-
 
         </LinearLayout>
 
