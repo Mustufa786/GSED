@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.databinding.FragmentCrf2SectionIjkBinding;
 import com.aku.dmu.gsed.ui.gsedCRF2.callbacks.Callbacks;
+import com.aku.dmu.gsed.validations.ValidatorClass;
 
 public class CRF2SectionIJKFragment extends Fragment {
 
@@ -38,4 +39,36 @@ public class CRF2SectionIJKFragment extends Fragment {
         callbacks = (Callbacks) context;
     }
 
+    public void BtnEnd() {
+
+    }
+
+    public void BtnContinue() {
+        if (!formValidation())
+            return;
+
+        SaveDraft();
+        if (UpdateDB()) {
+
+
+        } else {
+
+
+        }
+
+
+    }
+
+    private boolean formValidation() {
+
+        return ValidatorClass.EmptyCheckingContainer(getContext(), bi.llsecIJK);
+    }
+
+    private boolean UpdateDB() {
+
+        return true;
+    }
+
+    private void SaveDraft() {
+    }
 }

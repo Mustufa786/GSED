@@ -13,6 +13,7 @@ import android.widget.CompoundButton;
 import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.databinding.FragmentCrf2SectionEfgBinding;
 import com.aku.dmu.gsed.ui.gsedCRF2.callbacks.Callbacks;
+import com.aku.dmu.gsed.validations.ValidatorClass;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -67,6 +68,39 @@ public class CRF2SectionEFGFragment extends Fragment {
         super.onAttach(context);
 
         callbacks = (Callbacks) context;
+    }
+
+    public void BtnEnd() {
+
+    }
+
+    public void BtnContinue() {
+        if (!formValidation())
+            return;
+
+        SaveDraft();
+        if (UpdateDB()) {
+
+
+        } else {
+
+
+        }
+
+
+    }
+
+    private boolean formValidation() {
+
+        return ValidatorClass.EmptyCheckingContainer(getContext(), bi.fldGrpSectionefg);
+    }
+
+    private boolean UpdateDB() {
+
+        return true;
+    }
+
+    private void SaveDraft() {
     }
 
 }

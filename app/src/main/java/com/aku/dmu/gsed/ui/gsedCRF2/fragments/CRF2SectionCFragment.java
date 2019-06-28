@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.databinding.FragmentCrf2SectionCBinding;
 import com.aku.dmu.gsed.ui.gsedCRF2.callbacks.Callbacks;
+import com.aku.dmu.gsed.validations.ValidatorClass;
 
 
 /**
@@ -40,6 +41,39 @@ public class CRF2SectionCFragment extends Fragment {
         super.onAttach(context);
 
         callbacks = (Callbacks) context;
+    }
+
+    public void BtnEnd() {
+
+    }
+
+    public void BtnContinue() {
+        if (!formValidation())
+            return;
+
+        SaveDraft();
+        if (UpdateDB()) {
+
+
+        } else {
+
+
+        }
+
+
+    }
+
+    private boolean formValidation() {
+
+        return ValidatorClass.EmptyCheckingContainer(getContext(), bi.fldGrpSectionC01);
+    }
+
+    private boolean UpdateDB() {
+
+        return true;
+    }
+
+    private void SaveDraft() {
     }
 
 }

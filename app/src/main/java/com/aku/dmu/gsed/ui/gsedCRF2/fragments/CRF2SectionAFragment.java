@@ -46,4 +46,32 @@ public class CRF2SectionAFragment extends Fragment {
     public boolean formValidation() {
         return ValidatorClass.EmptyCheckingContainer(getContext(), bi.fldGrpSectionA01);
     }
+
+    public void BtnEnd() {
+
+    }
+
+    public void BtnContinue() {
+        if (!formValidation())
+            return;
+
+        SaveDraft();
+        if (UpdateDB()) {
+
+
+        } else {
+
+
+        }
+
+
+    }
+
+    private boolean UpdateDB() {
+
+        return true;
+    }
+
+    private void SaveDraft() {
+    }
 }
