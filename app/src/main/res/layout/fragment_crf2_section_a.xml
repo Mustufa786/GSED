@@ -79,10 +79,10 @@
                         style="@style/i_textview"
                         android:text="@string/cs03" />
 
-                    <EditText
+                    <io.blackbox_vision.datetimepickeredittext.view.DatePickerEditText
                         android:id="@+id/cs03"
-                        style="@style/EditText_number"
-                        android:hint="@string/dateHint" />
+                        style="@style/textInput"
+                        android:hint="@string/U03" />
 
                 </LinearLayout>
 
