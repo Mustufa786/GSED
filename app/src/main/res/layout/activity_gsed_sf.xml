@@ -36,7 +36,6 @@
                 android:id="@+id/viewpager"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_above="@id/btn"
                 android:layout_below="@+id/appBarLayout"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
@@ -44,22 +43,6 @@
                 android:layout_marginEnd="0dp"
                 app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-            <LinearLayout
-                android:id="@+id/btn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/submitBtn"
-                    style="@style/button"
-                    android:background="@color/colorPrimary"
-                    android:text="Submit"
-                    android:textColor="@color/white"
-                    android:textSize="20sp" />
-
-            </LinearLayout>
 
         </RelativeLayout>
 
