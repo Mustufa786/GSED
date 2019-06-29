@@ -2,9 +2,7 @@ package com.aku.dmu.gsed.ui.gsedSF;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 
 import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.databinding.ActivityGsedSfBinding;
@@ -24,14 +22,6 @@ public class GSEDSFActivity extends AppCompatActivity implements SFCallbacks {
 
         setupViewPager();
 
-        final Fragment fragment = getSupportFragmentManager().findFragmentByTag("android:switcher:" + bi.viewpager + ":" + bi.viewpager.getCurrentItem());
-
-        bi.submitBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
 
 
     }

@@ -2,6 +2,7 @@ package com.aku.dmu.gsed.ui.gsedSF.fragments;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -12,6 +13,7 @@ import android.view.ViewGroup;
 import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.databinding.FragmentSfSectionABinding;
 import com.aku.dmu.gsed.ui.gsedSF.callbacks.SFCallbacks;
+import com.aku.dmu.gsed.ui.main.MainActivity;
 import com.aku.dmu.gsed.validations.ValidatorClass;
 
 
@@ -45,5 +47,31 @@ public class SFSectionAFragment extends Fragment {
 
     public boolean formValidation() {
         return ValidatorClass.EmptyCheckingContainer(getContext(), bi.fldGrpSectionA01);
+    }
+
+    public void BtnEnd() {
+
+    }
+
+    public void BtnContinue() {
+        if (!formValidation())
+            return;
+        SaveDraft();
+        if (UpdateDB()) {
+            getActivity().startActivity(new Intent(getContext(), MainActivity.class));
+        } else {
+
+
+        }
+
+
+    }
+
+    private boolean UpdateDB() {
+
+        return true;
+    }
+
+    private void SaveDraft() {
     }
 }
