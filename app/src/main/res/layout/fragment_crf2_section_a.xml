@@ -262,7 +262,7 @@
                             style="@style/textInput"
                             android:hint="@string/cs08"
                             android:tag="cs08d"
-                            android:text='@{cs08d.checked? hs01ax.getText.toString : ""}'
+                            android:text='@{cs08d.checked? cs08.getText.toString : ""}'
                             android:visibility='@{cs08d.checked? View.VISIBLE : View.GONE}' />
 
                     </LinearLayout>
