@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ui.gsedCRF2.fragments.CRF2SectionAFragment">
 
@@ -226,11 +227,11 @@
                 android:id="@+id/CVcs08"
                 style="@style/cardView">
 
-                <LinearLayout style="@style/linerlayout_view_wt_bound">
+                <TextView
+                    style="@style/i_textview"
+                    android:text="@string/cs08" />
 
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="@string/cs08" />
+                <LinearLayout style="@style/linerlayout_view_wt_bound">
 
                     <CheckBox
                         android:id="@+id/cs08a"
@@ -255,7 +256,8 @@
                     <EditText
                         android:id="@+id/cs08"
                         style="@style/textInput"
-                        android:hint="@string/cs08" />
+                        android:hint="@string/cs08"
+                        android:tag="cs08d" />
 
                 </LinearLayout>
 
@@ -399,6 +401,7 @@
                     <CheckBox
                         android:id="@+id/cs14a"
                         style="@style/checkbox"
+                        android:tag="-1"
                         android:text="@string/cs14a" />
 
                 </LinearLayout>
@@ -583,22 +586,28 @@
                         style="@style/i_textview"
                         android:text="@string/cs20" />
 
-                    <EditText
+                    <com.edittextpicker.aliazaz.EditTextPicker
                         android:id="@+id/cs20"
                         style="@style/EditText_number"
                         android:hint="Age"
+                        android:maxLength="2"
                         android:text='@{cs2088.checked || cs2088a.checked ? ""  : cs20.getText.toString }'
-                        android:visibility='@{cs2088.checked || cs2088a.checked ? View.GONE : View.VISIBLE }' />
+                        android:visibility='@{cs2088.checked || cs2088a.checked ? View.GONE : View.VISIBLE }'
+                        app:maxValue="70"
+                        app:minValue="15"
+                        app:type="range" />
 
                     <CheckBox
                         android:id="@+id/cs2088"
                         style="@style/checkbox"
+                        android:tag="-1"
                         android:text="@string/cs2088" />
 
                     <CheckBox
                         android:id="@+id/cs2088a"
                         style="@style/checkbox"
-                        android:text="@string/cs2088a" />
+                        android:text="@string/cs2088a"
+                        android:visibility="gone" />
 
                 </LinearLayout>
 
@@ -705,15 +714,13 @@
                     style="@style/button"
                     android:layout_marginRight="10dp"
                     android:onClick="@{() -> callback.BtnEnd()}"
-                    android:text="@string/end_interview"
-                    />
+                    android:text="@string/end_interview" />
 
                 <Button
                     android:id="@+id/btn_Continue"
                     style="@style/button"
                     android:onClick="@{() -> callback.BtnContinue()}"
-                    android:text="@string/nextSection"
-                     />
+                    android:text="@string/nextSection" />
 
 
                 <!--'onClick' for btn_End will NOT change and always call 'endInterview'-->

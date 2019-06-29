@@ -208,13 +208,13 @@
                     <CheckBox
                         android:id="@+id/hh0388"
                         style="@style/checkbox"
-                        android:checked='@{hh0399.checked ? false : true }'
+                        android:tag="-1"
                         android:text="@string/hh0388" />
 
                     <CheckBox
                         android:id="@+id/hh0399"
                         style="@style/checkbox"
-                        android:checked='@{hh0388.checked ? false : true }'
+                        android:tag="-1"
                         android:text="@string/hh0399" />
 
                 </LinearLayout>
