@@ -75,8 +75,8 @@
                         style="@style/textInput"
                         android:hint="Years"
                         android:tag="hs01"
-                        android:text='@{cs2088.checked || cs2088a.checked ? ""  : cs20.getText.toString }'
-                        android:visibility='@{cs2088.checked || cs2088a.checked ? View.GONE : View.VISIBLE }' />
+                        android:text='@{hs0298.checked || hs0299.checked ? ""  : hs01.getText.toString }'
+                        android:visibility='@{hs0298.checked || hs0299.checked ? View.GONE : View.VISIBLE }' />
 
                     <CheckBox
                         android:id="@+id/hs0298"

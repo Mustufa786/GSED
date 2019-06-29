@@ -1,6 +1,7 @@
 package com.aku.dmu.gsed.ui.gsedCRF2.fragments;
 
 import android.content.Context;
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -11,6 +12,7 @@ import android.view.ViewGroup;
 import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.databinding.FragmentCrf2SectionLBinding;
 import com.aku.dmu.gsed.ui.gsedCRF2.callbacks.Callbacks;
+import com.aku.dmu.gsed.ui.main.MainActivity;
 import com.aku.dmu.gsed.validations.ValidatorClass;
 
 
@@ -51,7 +53,8 @@ public class CRF2SectionLFragment extends Fragment {
         SaveDraft();
         if (UpdateDB()) {
 
-            callbacks.validated(true);
+//            callbacks.validated(true);
+            startActivity(new Intent(getActivity(), MainActivity.class));
         } else {
 
 

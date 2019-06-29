@@ -57,7 +57,8 @@
                     android:background="@color/colorPrimary"
                     android:text="Submit"
                     android:textColor="@color/white"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:visibility="gone" />
 
             </LinearLayout>
 

@@ -4,7 +4,6 @@ import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.databinding.ActivityGsedCrf2Binding;
@@ -72,8 +71,6 @@ public class GSEDCRF2Activity extends AppCompatActivity implements Callbacks {
             item = getItem(+1);
             bi.viewpager.setCurrentItem(item, true);
             enabledNextForm(item);
-        } else {
-            Toast.makeText(this, "Please form firs!", Toast.LENGTH_SHORT).show();
         }
     }
 

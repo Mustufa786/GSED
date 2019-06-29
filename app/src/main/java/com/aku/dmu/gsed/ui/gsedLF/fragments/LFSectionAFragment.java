@@ -2,6 +2,7 @@ package com.aku.dmu.gsed.ui.gsedLF.fragments;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -12,6 +13,8 @@ import android.view.ViewGroup;
 import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.databinding.FragmentLfSectionABinding;
 import com.aku.dmu.gsed.ui.gsedLF.callbacks.LFCallbacks;
+import com.aku.dmu.gsed.ui.main.MainActivity;
+import com.aku.dmu.gsed.validations.ValidatorClass;
 
 
 /**
@@ -40,6 +43,41 @@ public class LFSectionAFragment extends Fragment {
         super.onAttach(context);
 
         callbacks = (LFCallbacks) context;
+    }
+
+    private boolean formValidation() {
+
+        return ValidatorClass.EmptyCheckingContainer(getContext(), bi.fldGrpLFSectionA01);
+    }
+
+    private boolean UpdateDB() {
+
+        return true;
+    }
+
+    private void SaveDraft() {
+    }
+
+    public void BtnEnd() {
+        startActivity(new Intent(getActivity(), MainActivity.class));
+    }
+
+    public void BtnContinue() {
+
+        if (!formValidation())
+            return;
+
+        SaveDraft();
+        if (UpdateDB()) {
+
+            startActivity(new Intent(getActivity(), MainActivity.class));
+
+        } else {
+
+
+        }
+
+
     }
 
 }
