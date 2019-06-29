@@ -227,37 +227,41 @@
                 android:id="@+id/CVcs08"
                 style="@style/cardView">
 
-                <TextView
-                    style="@style/i_textview"
-                    android:text="@string/cs08" />
-
                 <LinearLayout style="@style/linerlayout_view_wt_bound">
 
-                    <CheckBox
-                        android:id="@+id/cs08a"
-                        style="@style/checkbox"
-                        android:text="@string/cs08a" />
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/cs08" />
 
-                    <CheckBox
-                        android:id="@+id/cs08b"
-                        style="@style/checkbox"
-                        android:text="@string/cs08b" />
+                    <LinearLayout style="@style/linerlayout_view_wt_bound">
 
-                    <CheckBox
-                        android:id="@+id/cs08c"
-                        style="@style/checkbox"
-                        android:text="@string/cs08c" />
+                        <CheckBox
+                            android:id="@+id/cs08a"
+                            style="@style/checkbox"
+                            android:text="@string/cs08a" />
 
-                    <CheckBox
-                        android:id="@+id/cs08d"
-                        style="@style/checkbox"
-                        android:text="@string/cs08d" />
+                        <CheckBox
+                            android:id="@+id/cs08b"
+                            style="@style/checkbox"
+                            android:text="@string/cs08b" />
 
-                    <EditText
-                        android:id="@+id/cs08"
-                        style="@style/textInput"
-                        android:hint="@string/cs08"
-                        android:tag="cs08d" />
+                        <CheckBox
+                            android:id="@+id/cs08c"
+                            style="@style/checkbox"
+                            android:text="@string/cs08c" />
+
+                        <CheckBox
+                            android:id="@+id/cs08d"
+                            style="@style/checkbox"
+                            android:text="@string/cs08d" />
+
+                        <EditText
+                            android:id="@+id/cs08"
+                            style="@style/textInput"
+                            android:hint="@string/cs08"
+                            android:tag="cs08d" />
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
