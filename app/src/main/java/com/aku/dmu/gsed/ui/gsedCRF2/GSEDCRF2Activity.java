@@ -18,7 +18,6 @@ import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionEFGFragment;
 import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionHFragment;
 import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionIJKFragment;
 import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionLFragment;
-import com.aku.dmu.gsed.utils.Constant.Constants;
 
 public class GSEDCRF2Activity extends AppCompatActivity implements Callbacks {
 
@@ -68,12 +67,11 @@ public class GSEDCRF2Activity extends AppCompatActivity implements Callbacks {
 
     @Override
     public void validated(boolean isValidated) {
-        Constants.isValidated = isValidated;
-        if (Constants.isValidated) {
+        valid = isValidated;
+        if (valid) {
             item = getItem(+1);
             bi.viewpager.setCurrentItem(item, true);
             enabledNextForm(item);
-            Constants.isValidated = false;
         } else {
             Toast.makeText(this, "Please form firs!", Toast.LENGTH_SHORT).show();
         }
