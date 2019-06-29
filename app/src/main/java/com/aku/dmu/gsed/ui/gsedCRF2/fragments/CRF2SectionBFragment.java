@@ -60,6 +60,8 @@ public class CRF2SectionBFragment extends Fragment {
         SaveDraft();
         if (UpdateDB()) {
 
+            callbacks.validated(true);
+
         } else {
             Toast.makeText(getContext(), "Error in updating db!!", Toast.LENGTH_SHORT).show();
         }

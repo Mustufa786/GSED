@@ -54,11 +54,9 @@ public class CRF2SectionAFragment extends Fragment {
     public void BtnContinue() {
         if (!formValidation())
             return;
-
         SaveDraft();
         if (UpdateDB()) {
-
-
+            callbacks.validated(true);
         } else {
 
 
