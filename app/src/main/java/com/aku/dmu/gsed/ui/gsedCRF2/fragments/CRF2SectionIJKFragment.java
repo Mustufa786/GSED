@@ -44,12 +44,14 @@ public class CRF2SectionIJKFragment extends Fragment {
     }
 
     public void BtnContinue() {
+
         if (!formValidation())
             return;
 
         SaveDraft();
         if (UpdateDB()) {
 
+            callbacks.validated(true);
 
         } else {
 

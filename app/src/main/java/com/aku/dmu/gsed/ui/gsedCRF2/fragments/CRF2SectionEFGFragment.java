@@ -75,6 +75,7 @@ public class CRF2SectionEFGFragment extends Fragment {
     }
 
     public void BtnContinue() {
+
         if (!formValidation())
             return;
 
@@ -82,6 +83,7 @@ public class CRF2SectionEFGFragment extends Fragment {
         if (UpdateDB()) {
 
 
+            callbacks.validated(true);
         } else {
 
 

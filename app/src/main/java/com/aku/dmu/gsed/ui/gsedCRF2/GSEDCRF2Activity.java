@@ -2,8 +2,9 @@ package com.aku.dmu.gsed.ui.gsedCRF2;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.aku.dmu.gsed.R;
 import com.aku.dmu.gsed.databinding.ActivityGsedCrf2Binding;
@@ -17,11 +18,14 @@ import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionEFGFragment;
 import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionHFragment;
 import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionIJKFragment;
 import com.aku.dmu.gsed.ui.gsedCRF2.fragments.CRF2SectionLFragment;
+import com.aku.dmu.gsed.utils.Constant.Constants;
 
 public class GSEDCRF2Activity extends AppCompatActivity implements Callbacks {
 
     ActivityGsedCrf2Binding bi;
     boolean valid;
+    LinearLayout tabStrip;
+    int item = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,9 +33,6 @@ public class GSEDCRF2Activity extends AppCompatActivity implements Callbacks {
         bi = DataBindingUtil.setContentView(this, R.layout.activity_gsed_crf2);
 
         setupViewPager();
-
-        final Fragment fragment = getSupportFragmentManager().findFragmentByTag("android:switcher:" + bi.viewpager + ":" + bi.viewpager.getCurrentItem());
-
 
 
     }
@@ -49,11 +50,36 @@ public class GSEDCRF2Activity extends AppCompatActivity implements Callbacks {
         adapter.addFragment(new CRF2SectionLFragment(), "ASSETS");
         bi.viewpager.setAdapter(adapter);
         bi.tabs.setupWithViewPager(bi.viewpager);
+        bi.viewpager.beginFakeDrag();
+
+        tabStrip = ((LinearLayout) bi.tabs.getChildAt(0));
+        for (int i = 1; i < tabStrip.getChildCount(); i++) {
+            tabStrip.getChildAt(i).setEnabled(false);
+
+        }
+
 
     }
 
+
+    private int getItem(int i) {
+        return bi.viewpager.getCurrentItem() + i;
+    }
+
     @Override
-    public void validateFragmentOne(boolean validated) {
-        valid = validated;
+    public void validated(boolean isValidated) {
+        Constants.isValidated = isValidated;
+        if (Constants.isValidated) {
+            item = getItem(+1);
+            bi.viewpager.setCurrentItem(item, true);
+            enabledNextForm(item);
+            Constants.isValidated = false;
+        } else {
+            Toast.makeText(this, "Please form firs!", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private void enabledNextForm(int item) {
+        tabStrip.getChildAt(item).setEnabled(true);
     }
 }

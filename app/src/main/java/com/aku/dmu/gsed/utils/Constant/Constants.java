@@ -31,4 +31,7 @@ public class Constants {
     public static final String[] DUMMY_CREDENTIALS = new String[]{
             "test1234:test1234", "testS12345:testS12345", "bar@example.com:world"
     };
+
+    public static boolean isValidated = false;
+
 }
