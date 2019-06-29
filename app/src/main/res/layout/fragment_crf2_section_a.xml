@@ -82,7 +82,9 @@
                     <io.blackbox_vision.datetimepickeredittext.view.DatePickerEditText
                         android:id="@+id/cs03"
                         style="@style/textInput"
-                        android:hint="@string/U03" />
+                        android:hint="@string/U03"
+                        app:dateFormat="dd-MM-yyyy"
+                        app:maxDate="CR_DATE" />
 
                 </LinearLayout>
 
@@ -259,7 +261,9 @@
                             android:id="@+id/cs08"
                             style="@style/textInput"
                             android:hint="@string/cs08"
-                            android:tag="cs08d" />
+                            android:tag="cs08d"
+                            android:text='@{cs08d.checked? hs01ax.getText.toString : ""}'
+                            android:visibility='@{cs08d.checked? View.VISIBLE : View.GONE}' />
 
                     </LinearLayout>
 
