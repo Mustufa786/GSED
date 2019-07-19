@@ -297,7 +297,7 @@ public abstract class ValidatorClass {
         });
     }
 
-    public static boolean EmptyCheckingContainer(Context context, LinearLayout lv) {
+    public static boolean EmptyCheckingContainer(Context context, ViewGroup lv) {
 
         for (int i = 0; i < lv.getChildCount(); i++) {
             View view = lv.getChildAt(i);
@@ -317,13 +317,8 @@ public abstract class ValidatorClass {
             }
 
             if (view instanceof CardView) {
-                for (int j = 0; j < ((CardView) view).getChildCount(); j++) {
-                    View view1 = ((CardView) view).getChildAt(j);
-                    if (view1 instanceof LinearLayout) {
-                        if (!EmptyCheckingContainer(context, (LinearLayout) view1)) {
-                            return false;
-                        }
-                    }
+                if (!EmptyCheckingContainer(context, (LinearLayout) view)) {
+                    return false;
                 }
             } else if (view instanceof RadioGroup) {
 
