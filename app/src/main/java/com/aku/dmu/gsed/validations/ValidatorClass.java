@@ -317,7 +317,7 @@ public abstract class ValidatorClass {
             }
 
             if (view instanceof CardView) {
-                if (!EmptyCheckingContainer(context, (LinearLayout) view)) {
+                if (!EmptyCheckingContainer(context, (ViewGroup) view)) {
                     return false;
                 }
             } else if (view instanceof RadioGroup) {
